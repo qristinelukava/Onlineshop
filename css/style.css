@@ -1,0 +1,151 @@
+
+
+/* header style */
+
+
+.header-block {
+  
+    background:  linear-gradient(black 51%,  rgba(65,21,104,1));;
+    height: 174px;
+    width: 100%;
+}
+.logo {
+    max-width: 117px;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 300px;
+ 
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.store-name {
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+}
+.header2 {
+    display: flex;
+    padding-top: 17px;
+}
+.join{
+    font-size: 32px;
+    color: white;
+    width: 200px;
+}
+.ge {
+    max-width: 35px;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    background-color: #271241;
+    text-align: center;
+    padding-top: 8px;
+    margin-right: 20px;
+} 
+.icons {
+   max-width: 26px;
+   width: 100%;
+   margin-right: 20px;
+}
+.icons-1 {
+    max-width: 26px;
+    width: 100%;
+    height: 27px;
+ }
+ .header3 {
+    max-width: 1100px;
+    margin-top: 37px;
+    padding-left: 208px;
+ }
+ .nav-ul {
+     display: flex;
+     justify-content: space-between;
+ }
+ .nav-li {
+     font-size: 18px;
+     color: white;
+ }
+ 
+ /* footer style */
+
+ .footer-block {
+    background:  linear-gradient(black 51%,  rgba(65,21,104,1));;
+    height: 360px;
+    width: 100%;
+    margin-top: 200px;
+   
+ }
+ .soc-div {
+     display: flex;
+     justify-content: space-around;
+     /* margin-top: 70px; */
+ }
+ .nav-li1 {
+     font-size: 18px;
+     color: #707070;
+     margin-bottom: 20px;
+ }
+ .company {
+     font-size: 24px;
+     font-weight: bold;
+     color: white;
+     margin-bottom: 20px;
+ }
+.divide-1 {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+.nav-1 {
+    margin-right: 110px;
+}
+.soc-icons {
+    margin-top: 30px;
+    
+}
+.soc-icon {
+    max-width: 30px;
+    width: 100%;
+    margin-right: 10px;
+}
+.soc-icon1 {
+    max-width: 15px;
+    width: 100%;
+    margin-right: 10px;
+}
+.logo1 {
+    max-width: 117px;
+    width: 100%;
+   margin-top: 80px;
+    margin-left: 300px;
+}
+.input1 {
+  width: 220px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #707070;
+  background-color: rgb(54, 33, 59);
+  height: 50px;
+  font-size: 18px;
+}
+.input {
+    max-width: 600px;
+    margin-top: 20px;
+    display: flex;
+}
+.btn {
+    max-width: 100px;
+    border-radius: 30%;
+    font-size: 24px;
+    color: white;
+    background-color: #411568;
+    padding:8px 20px;
+    margin-left: 10px;
+}
