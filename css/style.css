@@ -71,15 +71,350 @@
      font-size: 18px;
      color: white;
  }
+ /* section 1 style */
+ html, body { height: 100%; margin: 0; }
+ .slider, .slider .imgs {
+    width: 100%;
+    height: 100%;
  
+    position: relative;
+  }
+  
+  .slider {
+    height: 85%;
+    max-height: 900px;
+    z-index: 2;
+    
+  }
+  
+  .slider .imgs {
+    display: flex;
+    overflow: hidden;
+    position:absolute;
+    
+  }
+  .img1 {
+    height: 900px;
+    width: 100%;
+   
+  }
+  .slider .img {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    left: 100%;
+    /* animation duration can't be greater than variable interval in JS! */
+    /* check JS for other settings */
+    animation: .6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s left;
+    animation-fill-mode: forwards;
+   
+  }
+  
+  /* Change images here */
+  /* .slider .img:nth-of-type(1) { background: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e"); }
+  .slider .img:nth-of-type(2) { background: url("https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg"); }
+  .slider .img:nth-of-type(3) { background: url("https://wallpapercave.com/wp/9F6GsSn.jpg"); }
+  .slider .img:nth-of-type(4) { background: url("https://k60.kn3.net/taringa/F/C/6/8/4/5/VCLR/3E9.jpg"); } */
+  
+  .slider .img span {
+   
+    background: rgba(0, 0, 0, .8);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #f0f0f0;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .dots {
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 740px;
+    padding-bottom: 50px;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    background: rgb(248, 242, 242);
+    border-radius: 50%;
+    margin: 0 3px;
+    
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background: #3f3f3f;
+    cursor: default;
+
+  }
+  
+  @keyframes leftNext {
+    from { left: 100%; }
+    to { left: 0; }
+  }
+  
+  @keyframes leftCurr {
+    from { left: 0; }
+    to { left: -100%; }
+  }
+  
+  @keyframes rightNext {
+    from { left: -100%; }
+    to { left: 0; }
+  }
+  
+  @keyframes rightCurr {
+    from { left: 0; }
+    to { left: 100%; }
+  }
+
+
+  .sec1-div {
+    position:absolute;
+    z-index: 5;
+    bottom: 100px;
+    right: 130px;
+}
+.header1 {
+    font-size: 56px;
+    color: white;
+    margin-bottom: 10px;
+}
+.sec1-p {
+    font-size: 24px;
+    color:white;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.btn1 {
+    font-size: 24px;
+    color: white;
+    max-width: 250px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #411568;
+    border: 2px solid #411568 ;
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 50px;
+}
+
+
+
+
+  /* section 2 style */
+  .bg-image1 {
+    background-image:  url(../images/rwew.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+  }
+  .sec2-div {
+    position:absolute;
+    z-index: 5;
+    bottom: 100px;
+    left: 130px;
+  }
+  .btn2 {
+    font-size: 24px;
+    color: white;
+    max-width: 168px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #411568;
+    border: 2px solid #411568 ;
+    text-align: center;
+    padding-top: 13px;
+    
+}
+.header2 {
+    font-size: 56px;
+    color: white;
+    margin-bottom: 10px;
+}
+.sec2-p {
+    font-size: 24px;
+    color:white;
+    margin-bottom: 30px;
+    
+}
+  
+ /* section 3 style  */
+
+
+ HTML CSS JSResult Skip Results Iframe
+ EDIT ON
+ @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+ 
+ html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+ 
+ .slides {
+     padding: 0;
+     width:100%;
+     height: 600px;
+     display: block;
+     margin: 0 auto;
+     position: relative;
+     z-index: 3;
+     
+ }
+ 
+ .slides * {
+     user-select: none;
+     -ms-user-select: none;
+     -moz-user-select: none;
+     -khtml-user-select: none;
+     -webkit-user-select: none;
+     -webkit-touch-callout: none;
+ }
+ 
+ .slides input { display: none; }
+ 
+ .slide-container { display: block;
+position: relative; }
+ 
+ .slide {
+     top: 0;
+     opacity: 0;
+     width:100%;
+     height: 600px;
+     display: block;
+     position: absolute;
+
+     transform: scale(0);
+ 
+     transition: all .7s ease-in-out;
+ }
+ 
+ .slide img {
+     width: 100%;
+     height: 100%;
+     position: relative;
+ }
+ 
+ 
+ 
+ .nav .next { right: 0; }
+ 
+ input:checked + .slide-container  .slide {
+     opacity: 1;
+ 
+     transform: scale(1);
+ 
+     transition: opacity 1s ease-in-out;
+ }
+ 
+ input:checked + .slide-container .nav label { display: block; }
+ 
+ .nav-dots {
+   width: 100%;
+   bottom: 9px;
+   height: 11px;
+   display: block;
+   position: absolute;
+   text-align: center;
+   margin-bottom:30px;
+ }
+ 
+ .nav-dots .nav-dot {
+   top: -5px;
+   width: 11px;
+   height: 11px;
+   margin: 0 4px;
+   position: relative;
+   border-radius: 100%;
+   display: inline-block;
+   background-color: white;
+ }
+ 
+ .nav-dots .nav-dot:hover {
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0.8);
+ }
+ 
+ input#img-1:checked ~ .nav-dots label#img-dot-1,
+ input#img-2:checked ~ .nav-dots label#img-dot-2,
+ input#img-3:checked ~ .nav-dots label#img-dot-3,
+ input#img-4:checked ~ .nav-dots label#img-dot-4,
+ input#img-5:checked ~ .nav-dots label#img-dot-5,
+ input#img-6:checked ~ .nav-dots label#img-dot-6 {
+   background: rgba(0, 0, 0, 0.8);
+ }
+ .sec3-div {
+    position:absolute;
+    z-index: 5;
+    bottom: 100px;
+    left: 130px;
+ }
+ .btn3 {
+    font-size: 24px;
+    color: white;
+    max-width: 168px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #411568;
+    border: 2px solid #411568 ;
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 50px;
+    
+}
+
+.sec3-p {
+    font-size: 24px;
+    color:white;
+    margin-bottom: 45px;
+    margin-left: 50px;
+    
+}
+  
+ /* section 4 stylle */
+
+.bg-image2 {
+    background-image:  url(../images/mask1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
  /* footer style */
+ .bg-image {
+    background-image:  linear-gradient(black 51%,  rgba(65,21,104,1)), url(../images/f-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height:360px ;
+  
+}
 
  .footer-block {
-    background:  linear-gradient(black 51%,  rgba(65,21,104,1));;
+  
     height: 360px;
     width: 100%;
-    margin-top: 200px;
    
+ 
  }
  .soc-div {
      display: flex;
@@ -131,9 +466,10 @@
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid #707070;
-  background-color: rgb(54, 33, 59);
-  height: 50px;
+  background-color:transparent;
+  height: 30px;
   font-size: 18px;
+  margin-top: 10px;
 }
 .input {
     max-width: 600px;
@@ -141,11 +477,14 @@
     display: flex;
 }
 .btn {
-    max-width: 100px;
-    border-radius: 30%;
+    max-width:200px;
+    border-radius: 40%;
     font-size: 24px;
     color: white;
     background-color: #411568;
-    padding:8px 20px;
+    padding:0 30px;
+    padding-top: 2px;
     margin-left: 10px;
+    margin-top: 10px;
+    height: 33px;
 }
