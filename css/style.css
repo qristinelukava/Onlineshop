@@ -488,3 +488,146 @@ position: relative; }
     margin-top: 10px;
     height: 33px;
 }
+
+/* newcollection style */
+
+.body {
+  
+  background-color: #2F1A4F;
+ 
+}
+.newcollection {
+text-align: center;
+padding-top: 28px;
+max-width: 600px;
+
+}
+.col-image {
+  position:absolute;
+}
+.collection {
+  font-size: 36px;
+  color: white;
+  position: relative;
+  
+  
+}
+.col-div {
+  text-align: center;
+  margin-top: 140px;
+}
+/* section 1 */
+.sections {
+  display: flex;
+  margin:0 auto;
+ margin-top: 230px;
+ justify-content: space-between;
+ max-width: 1320px;
+ 
+
+
+}
+.cat-1 {
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  border: 2px solid #2F1A4F;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-around;
+}
+.cat-2{
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  border: 2px solid #2F1A4F;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-around;
+  margin-right: 50px;
+  
+}
+.subcategory {
+  font-size: 21px;
+  color:#505050;
+}
+.arrow2{
+  max-width: 11px;
+  width: 100%;
+  height: 8px;
+  margin-top: 8px;
+}
+.divide2{
+  display: flex;
+  width: 400px;
+}
+
+
+/* section 2 */
+
+.big-div {
+  max-width: 1096px;
+  width: 100%;
+  height: 1145px;
+  margin:0 auto;
+  margin-top: 70px;
+
+}
+.section1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.mini-div {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.small-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.img1{
+  max-width: 225px;
+  width: 100%;
+  height: 237px;
+}
+.name {
+
+  font-size: 18px;
+  color: white;
+  margin-bottom: 9px;
+}
+.brand {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 5px;
+}
+.bag2{
+  max-width: 20px;
+  width: 100%;
+}
+.price {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 5px;
+}
+.pages{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  justify-content: space-around;
+  max-width: 170px;
+  width: 100%;
+
+}
+.page {
+  font-size: 24px;
+  color: white;
+}
+.numbers, .h3-1, .h3-2 {
+  font-size: 24px;
+  color: white;
+  justify-content: space-between;
+}
