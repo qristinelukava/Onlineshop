@@ -71,15 +71,106 @@
      font-size: 18px;
      color: white;
  }
-.drop1 {
-  display: none;
-}
-.drop-li{
-  font-size: 16px;
+ .nav-li6{
+  font-size: 18px;
   color: white;
-  background-color: #430874;
-  border: 1px solid #430874;
+  margin-left: 20px;
+  
+ }
+ .dropdown {
+  position: relative;
+  display: inline-block;
+  
 }
+.dropdown1{
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#46067B;
+  min-width: 95px;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9;
+  margin-top: 10px;
+  padding-left: 10px;
+  
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color:#46067B;
+  min-width: 95px;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9;
+  margin-top: 10px;
+  padding-left: 10px;
+  
+}
+.a-2{
+  color: #737271;
+}
+.content1{
+  height: 195px;
+  min-width: 140px;
+  width: 100%;
+ padding-left: 0px;
+}
+
+.a-1 {
+  display: flex;
+
+ 
+  
+}
+.arrow3{
+  max-width: 8px;
+  width: 100%;
+  height: 8.52px;
+  margin-top:15px;
+}
+
+
+  .dropdown-content  a{
+    color: white;
+    font-size: 14px;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  .dropdown-content1 a {
+    color: white;
+    font-size: 14px;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+  /* .dropdown-content a:hover {background-color: #ddd;} */
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown1:hover .dropdown-content1 {display: block;}
+  
+  .dropdown:hover .nav-li6 {background-color:transparent;
+ }
+ .dropdown1:hover .nav-li6 {background-color:transparent;}
+
+
+ .dropdown:hover {
+  transition: .5s all; 
+ }
+ .dropdown1:hover {
+  transition: .5s all; 
+  }
 
 
 
@@ -425,7 +516,7 @@ position: relative; }
 
  /* footer style */
  .bg-image {
-    background-image:  linear-gradient(black 51%,  rgba(65,21,104,1)), url(../images/f-bg.png);
+  background:url(../images/f-bg.png) repeat, linear-gradient( black 51%,  rgba(65,21,104,1));
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
