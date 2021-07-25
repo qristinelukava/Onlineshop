@@ -1,0 +1,76 @@
+@media (max-width:1280px){
+
+    .burger-bar  {
+    display: block;
+    padding-left: 25px;
+ 
+    
+    }
+    .burger {
+        padding-top: 45px;
+    }
+    .header3 {
+        display: none;
+    }
+}
+@media (max-width:900px) {
+    .join{
+        display: none;
+    }
+    .header1{
+        height: 80px;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+   
+     
+    .header3 {
+        display: none;
+    }
+
+    .header-block {
+        height: 96px;
+    }
+  
+    .store-name {
+       
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    .logo {
+        margin:0;
+        float: right;
+        max-width: 100px;
+        width: 100%;
+        margin-right: 45px;
+      
+       
+    }
+    .logo-logo {
+        max-width: 275px;
+        width: 100%;
+       padding-top: 0;
+        height: 75px;
+        margin-left: 100px;
+      
+      }
+     
+}
+
+
+
+@media (max-width:700px){
+    .responsive1 {
+        display: block;
+    }
+    .icons-1 {
+        display:inline-block;
+    }
+  .ge {
+      display: inline-block;
+  }
+  .icons, .icons-2, .icons-1 {
+      display: none;
+  }
+}
