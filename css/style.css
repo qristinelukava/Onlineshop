@@ -35,7 +35,7 @@
 }
 .header2 {
     display: flex;
-    padding-top: 17px;
+    padding-top: 45px;
     padding-right: 10px;
 }
 .join{
@@ -68,6 +68,7 @@
     max-width: 26px;
     width: 100%;
     height: 27px;
+    margin-top: 3px;
     
  }
  .icons-11 {
@@ -356,7 +357,7 @@ width: 100%;
   }
 
   
-.burger-bar {
+.burger-icon {
   display: none;
   width: 39px;
   
@@ -378,7 +379,42 @@ width: 100%;
   
 display: none;
 }
+.menu-ul{
+  display: none;  
+  width:100%;
+  height: 100%;
+  background-color: black;
+  cursor: pointer;
+}
+.burger-nav1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.shoes1{
+  font-size: 18px;
+  color: white;
+}
+.plus{
+  font-size: 20px;
+  color: white;
+}
+.burger-input {
+  border-bottom: 2px solid white;
+  width: 100%;
+}
 
+.burger-join{
+  margin:0 auto;
+  width:130px
+}
+.burg-join{
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
 
 
 
@@ -559,7 +595,7 @@ display: none;
     padding-top: 13px;
     
 }
-.header2 {
+.header22 {
     font-size: 56px;
     color: white;
     margin-bottom: 10px;
@@ -581,6 +617,9 @@ display: none;
  html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
  
  .slides {
+  background-image:  url(../images/mask.png);
+  background-size: cover;
+  background-repeat: no-repeat;
      padding: 0;
      width:100%;
      height: 600px;
@@ -606,6 +645,7 @@ display: none;
 position: relative; }
  
  .slide {
+
      top: 0;
      opacity: 0;
      width:100%;
@@ -727,14 +767,20 @@ position: relative; }
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    width: 100%;
     height:360px ;
   
 }
-
+.store-name2 {
+  font-size: 36px;
+  color: white;
+  margin-top: 10px;
+}
  .footer-block {
   
     height: 360px;
     width: 100%;
+    padding-left: 140px;
    
  
  }
@@ -742,6 +788,7 @@ position: relative; }
      display: flex;
      justify-content: space-around;
      /* margin-top: 70px; */
+     width: 100%;
  }
  .nav-li1 {
      font-size: 18px;
@@ -760,12 +807,14 @@ position: relative; }
     display: flex;
     justify-content: space-around;
     margin-left: 200px;
+    width: 100%;
 }
 .nav-1 {
     margin-right: 110px;
 }
 .soc-icons {
     margin-top: 30px;
+    width: 100%;
     
 }
 .soc-icon {
@@ -773,16 +822,25 @@ position: relative; }
     width: 100%;
     margin-right: 10px;
 }
+.soc-icon11 {
+  max-width: 30px;
+  width: 100%;
+  margin-right: 35px;
+}
 .soc-icon1 {
     max-width: 15px;
     width: 100%;
     margin-right: 10px;
+}.soc-icon12 {
+  max-width: 15px;
+  width: 100%;
+  margin-right: 35px;
 }
 .logo1 {
     max-width: 117px;
     width: 100%;
    margin-top: 80px;
-    margin-left: 300px;
+    margin-left: 170px;
 }
 .input88 {
   width: 220px;
@@ -811,6 +869,13 @@ position: relative; }
     margin-top: 10px;
     height: 35px;
 }
+.resp-div{
+  display: none;
+}
+.resp-div1{
+  display: none;
+}
+
 
 /* newcollection style */
 
