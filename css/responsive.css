@@ -1,6 +1,6 @@
 @media (max-width:1280px){
 
-    .burger-icon  {
+    .burger-bar  {
     display: block;
     padding-left: 25px;
  
@@ -64,7 +64,20 @@
       .icons-1 {
           margin-top: 13px;
       }
-     
+      .big-div{
+          flex-wrap: wrap;
+          padding-top: 50px;
+      }
+      .section1{
+          flex-wrap: wrap;
+      }
+      .body {
+          height: 3000px;
+      }
+      .pages {
+          margin-top: 1200px;
+      }
+    
      
 }
 
@@ -197,15 +210,15 @@ nav{
 
 
  .sec1-div{
-   right: 170px;
-   bottom: 300px;
+   width: 250px;
+   text-align: center;
+  top:350px
     }
-.sec1-p{
-    margin-left: 70px;
+
+.sections{
+    display: none;
 }
-.header11{
-    margin-left: 40px;
-}
+.body {height: 2800px;}
 
 
 }
@@ -216,8 +229,32 @@ nav{
 
 
 
+@media (max-width:550px) {
 
+    .img1 {width: 145px;
+    height: 169px;}
+    .name {
 
+        font-size: 14px;
+        
+      }
+      .brand {
+        font-size: 11px;
+        color: white;
+        margin-bottom: 5px;
+      }
+      .bag2{
+        max-width: 15px;
+        width: 100%;
+      }
+      .price {
+        font-size: 12px;
+       
+      }
+      .bag-color{
+        max-width: 25px;
+      }
+}
 
 
 
@@ -275,10 +312,10 @@ nav{
         height: 20px;
     }
     .sec1-div{
-   right: 100px;
+   left:58px;
     }
     .sec3-div{
-      left: 70px;
+      left: 100px;
          }
     .sec2-div{
         left: 70px;
@@ -287,17 +324,20 @@ nav{
          }
     .header11{
         font-size: 30px;
-        margin-left: 50px;
+        margin-left: 0;
     }
     .header22{
         font-size: 30px;
+        margin-left: 0;
         
     }
     .sec1-p {
         font-size: 18px;
+        margin-left: 0;
     }
     .sec3-p {
         font-size: 18px;
+        margin-left: 0;
     }
     .sec2-p {
         font-size: 16px;
@@ -325,7 +365,7 @@ nav{
         font-size: 18px;
         height: 40px;
         padding-top: 8px;
-        margin-left: 50px;
+      margin-left: 0;
        
     }
     .img {
@@ -375,6 +415,41 @@ margin-left: 115px;
     .footer-block{
         padding-left: 17px;
     }
+.big-div {
+    padding: 0 5px;
+    padding-top: 50px;
+}
+.img1 {width: 100px;
+    height: 115px;}
+    .name {
 
+        font-size: 12px;
+        
+      }
+      .brand {
+        font-size: 9px;
+        color: white;
+        margin-bottom: 5px;
+      }
+      .bag2{
+        max-width: 10px;
+        width: 100%;
+      }
+      .price {
+        font-size: 10px;
+       
+      }
+      .bag-color{
+        max-width: 15px;
+        height: 15px;
+        padding-top: 0;
+      }
+      .body{
+          height: 1800px;
+          
+      }
+      .pages {
+        margin-top: 270px;
+      }
     
 }
