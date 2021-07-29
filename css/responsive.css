@@ -1,73 +1,18 @@
-@media (max-width:1280px){
+@media (max-width:1370px){
 
-    .burger-bar  {
-    display: block;
-    padding-left: 25px;
+  .nav-ul{
+      width: 700px;
+  }
  
-    
-    }
-    .burger {
-        padding-top: 45px;
-    }
-    .header3 {
-        display: none;
-    }
 }
-@media (max-width:900px) {
-    .join{
-        display: none;
-    }
-    .header1{
-       
-        padding-bottom: 20px;
-        padding-left: 0;
-    }
-   .header2 {
-       margin-bottom: 20px;
-       padding-top: 0;
-   }
-     
-    .header3 {
-        display: none;
-    }
+@media (max-width:1000px) {
+   
 
-    .header-block {
-        height: 96px;
-    }
-  
-    .store-name {
-       
-        font-size: 30px;
-        margin-top: 20px;
-    }
-    
-    .logo {
-        margin:0;
-        float: right;
-        max-width: 100px;
-        width: 100%;
-        margin-right: 45px;
-      
-       
-    }
-    .logo-logo {
-        max-width: 275px;
-        width: 100%;
-       padding-top: 0;
-        height: 75px;
-        margin-left: 100px;
-      
-      }
-      .ge{
-        margin-top: 10px;
-      }
-      .icons-1 {
-          margin-top: 13px;
-      }
+   
       .big-div{
           flex-wrap: wrap;
           padding-top: 50px;
-      }
+      } */
       .section1{
           flex-wrap: wrap;
       }
@@ -78,31 +23,83 @@
           margin-top: 1200px;
       }
     
-     
+      .nav-ul{
+        width: 600px;
+      
+    }
+
+    .header3{
+        padding-left:80px;
+    }
+    .header1{
+        padding-left:80px;
+    }
 }
 
 
 
 @media (max-width:750px){
-    .responsive1 {
+    .burger-bar{
         display: block;
+        position: absolute;
+        cursor:pointer;
+        
+       
     }
-    .icons-11{
-        margin-top: 14px;
+    .burger{
+        padding-left: 10px;
     }
-    .header-block{
-        padding-right: 0;
+    .header3 {
+        display: none;
     }
-    .header1{
-        padding-right: 0;
-    }
-    .header2{
-        padding-right: 5px;
-    }
- 
-  .icons, .icons-2, .icons-1 {
-      display: none;
+  .first-header{
+      display: block;
   }
+.header-block{
+    display: none;
+}
+.store-name {
+    font-size: 27px;
+    padding-top: 7px;
+    
+}
+.logo{
+   width:80px;
+}
+.bag-number {
+    margin-top: 15px;
+}
+.ge {
+    margin-top: 15px;
+}
+
+
+ul{
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 15;
+    background-color: black;
+    width: 750px;
+    height: 600px;
+    margin-top: 17px;
+    padding: 30px;
+    
+  }   
+  .nav-a{
+    display: block;
+  }  
+  .menu-ul
+  {
+    display: none;
+  }   
+  .menu-ul.open-menu{
+    display: block;
+  } 
+
+
+
+
   .img {
     background-image:  url(../images/resp-bg.png);
     background-size: cover;
@@ -222,6 +219,29 @@ nav{
 
 
 }
+.bag-number {
+    max-width: 50px;
+    text-align: center;
+    height: 30px;
+   
+  }
+  .bag-n{
+    font-size: 10px;
+    color: white;
+    background-color: #3a0b64;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    float: right;
+    border-radius: 15px;
+    padding-top: 4px;
+    margin-left: 16px;
+    margin-bottom: 15px;
+  }
+  .resp-icons{
+      width: 650px;
+      margin-left: 25px;
+  }
 
 
 
@@ -229,7 +249,29 @@ nav{
 
 
 
-@media (max-width:550px) {
+@media (max-width:557px) {
+    .store-name {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .logo{
+       width:60px;
+    }
+    .resp-logo {
+        max-width: 150px;
+        height: 40px;
+        }
+        .resp-icons1{
+            width: 200px;
+        }
+
+
+
+
+
+
+
+
 
     .img1 {width: 145px;
     height: 169px;}
@@ -262,44 +304,40 @@ nav{
 
 
 @media (max-width:450px){
-    .store-name {
-       
-        font-size: 21px;
-        margin-top: 20px;
+   .icons-1{
+       width:17px;
+       height: 20px;
+
     }
-    
-    .logo {
-        margin:0;
+    .bag-number {
+        max-width: 30px;
+        text-align: center;
+        height: 30px;
+       
+      }
+      .bag-n{
+        font-size: 8px;
+        color: white;
+        background-color: #3a0b64;
+        width: 14px;
+        height: 14px;
+        position: relative;
         float: right;
-        max-width: 80px;
-        width: 100%;
-        margin-right: 45px;
-      
-       
-    }
-    .logo-logo {
-        max-width: 130px;
-        width: 100%;
-       padding-top: 0;
-        height: 75px;
-     
-      
-      
-    }
-    .logo{
-        margin-right: 0;
-    }
-    .ge{
-        width: 28px;
-        margin:0;
-        height: 29px;
-        padding-top: 12px;
-        margin-right: 5px;
-       
-    }
-    .header2{
-        margin-top: 5px;
-    }
+        border-radius: 15px;
+        padding-top: 2px;
+        margin-left: 12px;
+        margin-bottom: 15px;
+      }
+      .ge{
+          width: 26px;
+          font-size: 13px;
+          height: 30px;
+          padding-top: 8px;
+      }
+
+
+
+
     .burger{
         width: 19px;
     }
@@ -307,10 +345,7 @@ nav{
         width: 19px;
         padding-left: 10px;
     }
-    .icons-11 {
-        width: 16px;
-        height: 20px;
-    }
+ 
     .sec1-div{
    left:58px;
     }
@@ -452,4 +487,11 @@ margin-left: 115px;
         margin-top: 270px;
       }
     
+}
+
+@media (max-width:401px){
+    
+.resp-icons1{
+    width:115px;
+}
 }
