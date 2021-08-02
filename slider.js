@@ -92,6 +92,16 @@
   })
 
 
+    
+$("#burger-menu1").on("click", function(){
+  $("#menu1").toggleClass("open-menu");
+  ;
+})
+
+$("#burger-menu2").on("click", function(){
+  $("#menu2").toggleClass("open-menu");
+  ;
+})
 
 
   

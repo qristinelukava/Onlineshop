@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GloomyStore</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -17,11 +18,22 @@
 <body>
     <header>
         <div class="header-block">
-            <img class="logo" src="images/logo.svg" alt="icon">
+            <div class="burger-bar">
+                <i class="fas fa-bars burger"></i>
+            </div>
+
             <div class="header1">
-                <a href="index.html">
-                    <h2 class="store-name">Gloomy Store</h2>
-                </a>
+                <div class="logo-logo">
+                    <img class="logo" src="images/logo.svg" alt="icon">
+                    <a href="index.html">
+                        <h2 class="store-name">Gloomy Store</h2>
+                    </a>
+                </div>
+                <div class="responsive1">
+                    <img class="icons-11" src="images/bag.png" alt="icons">
+
+
+                </div>
                 <div class="header2">
                     <a href="join.html">
                         <h2 class="join">Join Us!</h2>
@@ -32,23 +44,27 @@
                     <div class="login-pop">
                         <h3 class="log-pop">Log In</h3>
                         <div class="pop-input">
-                            
+
                             <input class="input222" type="text" id="fname" name="fname" value="username"><br>
-                            
-                            <input class="input222"type="text" id="fname" name="fname" value="password"><br>
+
+                            <input class="input222" type="text" id="fname" name="fname" value="password"><br>
                         </div>
                         <h3 class="forgot5">Forgot password?</h3>
-                        
-                            <div class="sign-pop">
-                                <h3 class="sign-in1">Sign IN</h3>
-                            </div>
-                            <div class="sign-pop">
-                                <h3 class="sign-in1">Sign Up</h3>
-                            </div>
-                       
-                        <h3 class="guest">continue as guest </h3>
+
+                        <div class="sign-pop">
+                            <h3 class="sign-in1">Sign IN</h3>
+                        </div>
+                        <div class="sign-pop">
+                            <h3 class="sign-in1">Sign Up</h3>
+                        </div>
+
+                        <h3 class="guest">Continue as guest </h3>
                     </div>
-                    <img class="icons-1" src="images/bag.png" alt="icons">
+                    <div class="bag-number">
+                        <h4 class="bag-n">1</h4>
+                        <img class="icons-1" src="images/bag.png" alt="icons">
+
+                    </div>
                     <div class="popup-cart">
                         <div class="pop1">
                             <img class="pop-img" src="images/pop-img.png" alt="image">
@@ -93,7 +109,9 @@
                         </div>
                         <div class="pop-btns">
                             <div class="popup-btn">
-                               <a href="cart.html"> <h3 class="pop-h">OPEN CART</h3></a>
+                                <a href="cart.html">
+                                    <h3 class="pop-h">OPEN CART</h3>
+                                </a>
                             </div>
                             <h3 class="pop-h1">
                                 Delete all
@@ -231,10 +249,134 @@
                         <li class="nav-li">About Us</li>
                     </ul>
                 </nav>
+
             </div>
         </div>
-    </header>
+        <div class="first-header">
+            <div class="r-inline">
+                <div id="burger-menu" class="burger-bar">
+                    <i class="fas fa-bars burger"></i>
+                    <ul id="menu" class="menu-ul">
+                        <div class="center">
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Shoes</li>
+                                    <h3 class="plus">+</h3>
 
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+
+                            <div class="burger-nav2">
+                                <div id="burger-menu1" class="burger-nav4">
+                                    <div class="burger-nav1">
+                                        <li class="nav-a1">Clothes</li>
+                                        <h3 class="plus">+</h3>
+                                    </div>
+                                    <div id="menu1" class="clothes-div">
+                                        <div class="clothes-flex">
+                                            <div class="women-div">
+                                                <h2 class="women-h">Women</h2>
+                                                <ul>
+                                                    <li class="women-li">T-Shirts/Shirts </li>
+                                                    <li class="women-li">Hoodies/Cardigans </li>
+                                                    <li class="women-li"> Trousers/Shorts </li>
+                                                    <li class="women-li"> Jackets/Coats </li>
+                                                    <li class="women-li"> Dresses/Skirts</li>
+                                                </ul>
+                                            </div>
+                                            <div class="men-div">
+                                                <h2 class="women-h">Men</h2>
+                                                <ul>
+                                                    <li class="women-li">T-Shirts/Shirts </li>
+                                                    <li class="women-li">Hoodies/Cardigans </li>
+                                                    <li class="women-li"> Trousers/Shorts </li>
+                                                    <li class="women-li"> Jackets/Coats </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Accessories</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Sale</li>
+                                    <h3 class="plus">+</h3>
+
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Blog</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">About us</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Join us</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                            </div>
+                            <div class="burger-search">
+                                <img class="ghost3" src="images/ghost.svg" alt="icon">
+                                <div class="search2">
+                                    <h3 class="search-h">Sign in</h3>
+                                    <img class="lope" src="images/search.svg" aria-colcount="image">
+                                </div>
+                            </div>
+                            <img class="burger-line" src="images/burgerline.png" alt="line">
+                            <div class="burger-join">
+                                <h4 class="burg-join">Join our newsletter</h4>
+                                <img class="burger-line2" src="images/Line12.png" alt="line">
+                            </div>
+                        </div>
+
+                        <div class="background">
+
+                        </div>
+                </div>
+
+
+                </ul>
+            </div>
+
+            <div class="resp-icons">
+                <div class="resp-logo">
+                    <img class="logo" src="images/logo.svg" alt="icon">
+                    <a href="index.html">
+                        <h2 class="store-name">Gloomy Store</h2>
+                    </a>
+                </div>
+                <div class="resp-icons1">
+                    <div class="bag-number">
+                        <h4 class="bag-n">1</h4>
+                        <img class="icons-1" src="images/bag.png" alt="icons">
+
+                    </div>
+                    <h4 class="ge"> GE </h4>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
 
     <section>
         <div class="big-div5">
@@ -396,10 +538,20 @@
 
 
             <div class="footer-block">
-                <img class="logo1" src="images/logo.svg" alt="icon">
+                <div class="resp-div">
+                    <img class="logo2" src="images/logo.svg" alt="icon">
+                    <h2 class="store-name2">Gloomy Store</h2>
+                </div>
+                <div class="resp-div1">
+                    <img class="soc-icon11" src="images/insta.svg" alt="icon">
+                    <img class="soc-icon12" src="images/fb.svg" alt="icon">
+                    <img class="soc-icon11" src="images/twitter (1).svg" alt="icon">
+                    <img class="soc-icon11" src="images/youtube.svg" alt="icon">
+                </div>
+
                 <div class="soc-div">
                     <div class="divide">
-                        <h2 class="store-name">Gloomy Store</h2>
+                        <h2 class="store-name2">Gloomy Store</h2>
                         <div class="soc-icons">
                             <img class="soc-icon" src="images/insta.svg" alt="icon">
                             <img class="soc-icon1" src="images/fb.svg" alt="icon">
@@ -454,7 +606,8 @@
             </div>
         </div>
     </footer>
-   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slider.js"></script>
 
 </body>
 

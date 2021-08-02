@@ -3,8 +3,74 @@
   .nav-ul{
       width: 700px;
   }
- 
+  .sections{
+      width:70vw;
+  }
+  .check-flex{
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.check-div{
+   width:75vw;
+   padding-right: 0;
+}
+ .check-div2{
+     margin-top:10%;
+ }
+ .divide9{
+     height: 1900px;
+ }
+ .input5 {
+     width: 20vw;
+ }
+ .input6{
+    width: 40vw;
+ }
+ .input6-div{
+     width: 40vw;
+     margin:0 auto;
+ }
+
+.pay-input{
+    flex-wrap: wrap;
+}
+.paymant{
+    height: 570px;
+}
+.pay1{
+    height: auto;
+}
+.class2, .class1{
+   width:  290px;
+}
+.pay3{
+    height: auto;
+}
+.pay-btn1{
+    margin-top: 7%;
+}
+
+.join2{
+    padding-left: 30px;
+}
+.div-join3{
+    width: 80vw;
+    margin: 0 auto;
+}
+.join4{
+    width: 80vw;
+    margin: 0 auto;
+}
+.join4-4{
+    width: 76vw;
+}
+
+}
+
+
+
+
+
 @media (max-width:1000px) {
    
 
@@ -19,9 +85,7 @@
       .body {
           height: 3000px;
       }
-      .pages {
-          margin-top: 1200px;
-      }
+     
     
       .nav-ul{
         width: 600px;
@@ -34,6 +98,39 @@
     .header1{
         padding-left:80px;
     }
+    .cat-1{
+        margin-right: 20px;
+    }
+    .cart0{
+       flex-direction: column;
+    }
+
+.check-flex{
+    flex-wrap: wrap;
+}
+.join-p{
+    font-size: 25px;
+}
+
+.join4-4 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.join4{
+    height: auto;
+    padding-bottom: 20px;
+}
+.head-div {
+    height: 1950px;
+}
+
+
+
+
+
+
+
+
 }
 
 
@@ -76,14 +173,6 @@
 
 ul{
     display: block;
-    text-align: center;
-    position: relative;
-    z-index: 15;
-    background-color: black;
-    width: 750px;
-    height: 600px;
-    margin-top: 17px;
-    padding: 30px;
     
   }   
   .nav-a{
@@ -207,18 +296,16 @@ nav{
 
 
  .sec1-div{
-   width: 250px;
+    width: 300px;
    text-align: center;
   top:350px
     }
 
-.sections{
+.cat-1, .divide2{
     display: none;
 }
 .body {height: 2800px;}
 
-
-}
 .bag-number {
     max-width: 50px;
     text-align: center;
@@ -239,15 +326,126 @@ nav{
     margin-bottom: 15px;
   }
   .resp-icons{
-      width: 650px;
+      width: 90%;
       margin-left: 25px;
   }
+.clothes-div {
+    display: none;
+}
+.women-li{
+    display: block;
+}
+.clothes-div.open-menu{
+    display: block;
+}
+.cat-resp{
+    display: block;
+}
+.sections{
+    float:right;
+        width: 61vw;
+}
+
+.section1{
+    flex-wrap: wrap;
+}
+.big-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+}
+.resp-filter {
+    display: none;
+}
+.resp-filter.open-menu{
+    display: block;
+}
+
+.shoes-cat{
+    display: none;
+}
+.filter-shoes{
+    display: none;
+}
+
+
+.newcollection{
+    width: 77vw;
+height: 150px;
+background-size: contain;
+}
+
+.for-resp{
+    display: block;
+}
+.big-div1{
+    display: none;
+}
+.img3{
+    border-radius: 19px;
+}
+
+.small-div2{
+    margin:0 auto;
+    max-width: 390px;
+    width: 100%;
+    padding-top: 3%;
+}
+
+
+.price1{
+    width: 200px;
+    float: right;
+    font-size: 18px;
+    
+}
+.buy{
+    width:70vw;
+    margin:0 auto;
+}
+.img4{
+    max-width: 30px;
+    width: 100%;
+}
+
+.color{
+    font-size: 18px;
+}
+.h4-1{
+    height: 65px;
+    padding-top: 15px;
+}
+.cart-div1{
+    flex-wrap: wrap;
+}
+
+.join-p{
+    font-size: 16px;
+}
+.pic{
+    width:80px;
+    height: 130px;
+}
+.join-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+}
 
 @media (max-width:557px) {
     .store-name {
@@ -264,14 +462,6 @@ nav{
         .resp-icons1{
             width: 200px;
         }
-
-
-
-
-
-
-
-
 
     .img1 {width: 145px;
     height: 169px;}
@@ -296,6 +486,79 @@ nav{
       .bag-color{
         max-width: 25px;
       }
+.burger-line{
+    width:300px;
+}
+.soc-icon11{
+    width: 20px;
+}
+.soc-icon12{
+    width: 10px;
+}
+.resp-div1{
+    max-width:230px ;
+}
+.company{
+    font-size: 15px;
+}
+
+.divide-1{
+    width: 200px;
+  margin-left: 150px;
+        }
+        .nav-1{
+        margin-right: 90px;
+        }
+
+.div-1{
+    width: 30vw;
+}
+
+
+.body{
+    height:2350px ;
+}
+
+.collection{
+    font-size: 24px;
+}
+
+
+.first-block{
+    flex-wrap: wrap;
+}
+.left1{
+    flex-wrap: wrap;
+}
+
+.second-block{
+    flex-wrap: wrap;
+}
+.container{
+    padding:30px 40px;
+}
+.block2{
+    display: none;
+}
+.block11{
+    display: none;
+}
+.block1{
+    width:25vw;
+   
+}
+.shoes1{
+    height: 180px;
+}
+
+.third-div{
+    padding:30px;
+}
+.join3{
+    font-size: 20px;
+}
+
+
 }
 
 
@@ -315,7 +578,7 @@ nav{
         height: 30px;
        
       }
-      .bag-n{
+    .bag-n{
         font-size: 8px;
         color: white;
         background-color: #3a0b64;
@@ -328,15 +591,12 @@ nav{
         margin-left: 12px;
         margin-bottom: 15px;
       }
-      .ge{
-          width: 26px;
-          font-size: 13px;
-          height: 30px;
-          padding-top: 8px;
+    .ge{
+       width: 26px;
+       font-size: 13px;
+       height: 30px;
+       padding-top: 8px;
       }
-
-
-
 
     .burger{
         width: 19px;
@@ -347,15 +607,15 @@ nav{
     }
  
     .sec1-div{
-   left:58px;
+       left:58px;
     }
     .sec3-div{
       left: 100px;
          }
     .sec2-div{
         left: 70px;
-    text-align: center;
-        width: 240px;
+        text-align: center;
+        width: 220px;
          }
     .header11{
         font-size: 30px;
@@ -412,9 +672,9 @@ nav{
         width: 100%;
         
        }
-       .slider {height: 592px;}
+    .slider {height: 592px;}
     
-       .resp-div{
+    .resp-div{
         display: block;
         margin-left: 0;
         padding-top: 25px;
@@ -431,16 +691,12 @@ nav{
         margin-left: 50px;
         width: 270px;
         margin-top: 70px;
-        margin-bottom: 50px;
-        
+        margin-bottom: 50px; 
     
     }
-    .divide-1{
-width: 200px;
-margin-left: 115px;
-    }
+  
     .company {
-        font-size: 16px;
+      
         margin-right: 70px;
        
     }
@@ -450,48 +706,235 @@ margin-left: 115px;
     .footer-block{
         padding-left: 17px;
     }
-.big-div {
+    .big-div {
     padding: 0 5px;
     padding-top: 50px;
 }
-.img1 {width: 100px;
+    .img1 {width: 100px;
     height: 115px;}
     .name {
-
-        font-size: 12px;
-        
+        font-size: 12px;  
       }
-      .brand {
+    .brand {
         font-size: 9px;
         color: white;
         margin-bottom: 5px;
       }
-      .bag2{
+    .bag2{
         max-width: 10px;
         width: 100%;
       }
-      .price {
+    .price {
         font-size: 10px;
        
       }
-      .bag-color{
+    .bag-color{
         max-width: 15px;
         height: 15px;
         padding-top: 0;
       }
-      .body{
-          height: 1800px;
+    .body{
+        height: 1800px;
           
       }
-      .pages {
-        margin-top: 270px;
-      }
-    
+ 
+
+    .burger-line{
+       width:250px;
+    }
+
+
+   .burger-line2{
+       max-width: 210px;
+       width: 100%;
+   }
+
+
+   .divide-1{
+       width: 150px;
+       margin-left: 100px;
+        }
+
+   .sec1-div{
+      width: 220px;
+      text-align: center;
+      top:350px;
+      left:55px;
+            }
+   .sec2-div{
+      left:75px;
+            }
+   .sec3-div{
+     left:105px;
+            }
+
+   .div-1{
+     width: 35vw;
+            }
+   .section1{
+     flex-wrap: wrap;
+            }
+            
+    .body{
+        height: 1800px;
+    }
+
+.input8, .label1 {
+    font-size: 16px;
+}
+.pic{
+    width:65px;
+    height: 110px;
+} 
+
+.join-p{
+    line-height: 30px;
+    font-size: 19px;
+}
+.pic{
+    padding-top: 10%;
 }
 
-@media (max-width:401px){
+.join4{
+    padding:0 10px;
+    padding-bottom: 20px;
+}
+.bt-send{
+    font-size: 27px;
+}
+.join-bt{
+    width:200px;
+    height: 50px;
+}
+}
+
+@media (max-width:409px){
     
 .resp-icons1{
     width:115px;
 }
+.divide-1{
+    width: 95px;
+   margin-left: 180px;
+        }
+.nav-1{
+    margin-right: 30px;
+        }
+.company{
+    margin-right: 40px;
+}
+.company{
+    font-size: 12px;
+    margin-right: 20px;
+}
+.soc-div{
+      width:190px;
+}
+.company{
+     font-size: 12px;
+     margin-right: 40px;
+    }
+.sec1-div{
+     width: 220px;
+     text-align: center;
+     top:350px;
+     left:15px;
+        }
+ .sec2-div{
+    left:25px;
+        }
+ .sec3-div{
+     left:65px;
+        }
+        
+      
+ .section1{
+      flex-wrap: wrap;
+      margin-top: 20px;
+        }
+ .newcollection{
+      height: 90px;
+        }
+ .big-div{
+      padding-top:0;
+        }
+
+.collection{
+    font-size: 20px;
+}
+
+.pay3{
+flex-direction: column;
+margin:0 auto;
+width:50vw;
+padding-left: 10px;
+}
+.pay11{
+    margin:0 auto;
+    width:50vw;
+}
+.input15, .class1, .class2{
+   width: 50vw;
+}
+.label5{
+    width:192px;
+    margin:0 auto;
+}
+.input12 {
+    width: 150px;
+}
+.paymant{
+    height:650px ;
+}
+.divide9{
+    height: 2000px;
+}
+
+
+
+
+
+
+
+}
+@media (max-width:355px){
+
+
+    .burger-line{
+        width:210px;
+    }
+    .divide-1{
+        width: 95px;
+       margin-left: 120px;
+            }
+    .nav-1{
+        margin-right: 30px;
+            }
+    .company{
+        margin-right: 40px;
+    }
+    .company{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .soc-div{
+          width:190px;
+    }
+    
+    .section1{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .collection{
+        font-size: 17px;
+    }
+
+    
+
+
+
+
+
+
+
 }
