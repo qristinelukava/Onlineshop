@@ -285,6 +285,9 @@ width: 100%;
   top:300px;
   right: 700px;
 }
+.icons-2.open-menu{
+  display: block;
+}
 .log-pop{
   font-size: 22px;
   color: white;
@@ -330,10 +333,6 @@ width: 100%;
   text-decoration: underline;
   margin-top: 20px;
  
-}
-.icons-2:hover +  .login-pop{
-  display: block;
-  transition: 5s;
 }
 
 
@@ -425,12 +424,26 @@ margin-top: 10px;
   margin-bottom: 15px;
 }
 .burger-nav1{
+  
+
+  width: 100%;
+ 
+
+}
+.size-flex2{
   display: flex;
-  max-width: 339px;
   width: 100%;
   justify-content: space-between;
 
 }
+.burger-nav8{
+  display: flex;
+ position: relative;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
 .burger-nav2{
   max-width: 339px;
   width: 100%;
@@ -475,7 +488,7 @@ margin-top: 10px;
 
 .burger-search {
   display: flex;
-  margin-top: 60%;
+  margin-top: 17%;
 }
 .ghost3{
   padding-top: 2%;
@@ -504,14 +517,14 @@ margin-top: 10px;
   max-width: 130px;
   width: 100%;
   margin:0 auto;
-  margin-top: 17%;
+  margin-top: 10%;
 }
 .background{
   width: 100%;
   height: 7vh;
   background-image:  url(../images/gradient.png);
   background-size: cover;
-  margin-top: 5%;
+  margin-top: 9.5%;
 }
 .clothes-div{
   display: none;
@@ -569,12 +582,12 @@ margin-top: 10px;
  }
  .slider, .slider .imgs {
     width: 100%;
-    height: 100%;
-    position: relative;
+    height: 92%;
+  
   }
   
   .slider {
-    height: 100%;
+    height: 92%;
     z-index: 2;
     
   }
@@ -588,7 +601,7 @@ margin-top: 10px;
   
   .slider .img {
     min-width: 100%;
-    height: 100%;
+    height: 92%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -623,8 +636,7 @@ margin-top: 10px;
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 990px;
-    padding-bottom: 50px;
+    top:690px;
   }
   
   .dot {
@@ -667,8 +679,9 @@ margin-top: 10px;
   .sec1-div {
     position:absolute;
     z-index: 5;
-    bottom: 100px;
+    bottom: 190px;
     right: 130px;
+    ;
 }
 .header11 {
     font-size: 56px;
@@ -700,11 +713,12 @@ margin-top: 10px;
 
   /* section 2 style */
   .bg-image1 {
-    background-image:  url(../images/imag.png);
+    background-image:  url(../images/maskmask.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 600px;
+    height: 800px;
+    padding-top: 1350px;
   }
   .sec2-div {
     position:absolute;
@@ -1116,11 +1130,12 @@ margin:0 auto;
   width: 96vw;
   height: 100vh;
   background:url(../images/black.png) ;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: 19;
   position: relative;
   padding-top: 20px;
+  
   
 }
 .filter-shoes {
@@ -1155,6 +1170,8 @@ margin:0 auto;
   height: 45px;
   border: 2px solid white;
   border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
 }
 .cancel{
   font-size: 16px;
@@ -1169,8 +1186,16 @@ width:72vw;
 margin-bottom:10%;
 margin-top: 3%;
 }
+.div-sub{
+  display: none;
+  position: absolute;
+  z-index: 19;
+}
 
 
+.menu-ul5{
+  display: none;
+}
 
 
 

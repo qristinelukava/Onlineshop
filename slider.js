@@ -91,17 +91,30 @@
    
   })
 
-
-    
 $("#burger-menu1").on("click", function(){
   $("#menu1").toggleClass("open-menu");
-  ;
 })
 
 $("#burger-menu2").on("click", function(){
   $("#menu2").toggleClass("open-menu");
-  ;
+})
+
+$("#sortpopup").on("click", function(){
+  var element = document.getElementById("menu2");
+  element.classList.remove("open-menu")
+})
+
+$("#ghost").on("click", function(){
+  $("#login-menu").toggleClass("open-menu");
 })
 
 
-  
+$("#burger-burger").on("click", function(){
+  $("#menu8").toggleClass("open-menu");
+ 
+})
+
+
+function deleteItem(name) {
+  document.getElementById(name).remove();
+} 

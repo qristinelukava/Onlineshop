@@ -356,6 +356,11 @@ nav{
 }
 .resp-filter {
     display: none;
+    position: fixed;
+left: 0;
+top: 68px;
+right: 0;
+
 }
 .resp-filter.open-menu{
     display: block;
@@ -432,17 +437,24 @@ background-size: contain;
     width: 85vw;
 }
 
+.b-search1{
+    width: 57vw;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
+.path{
+    padding-left: 25px;
+}
+.burger-nav8:hover .div-sub {
+    display: block;
+  }
+  
+.menu-ul8{
+    display: none;
+}
+.menu-ul8.open-menu{
+    display: block;
+}
 
 
 }
