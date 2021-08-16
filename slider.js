@@ -109,11 +109,6 @@ $("#ghost").on("click", function(){
 })
 
 
-$("#burger-burger").on("click", function(){
-  $("#menu8").toggleClass("open-menu");
- 
-})
-
 
 function deleteItem(name) {
   document.getElementById(name).remove();

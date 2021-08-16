@@ -198,6 +198,10 @@
         
        
     }
+    .burger-nav1{
+        display: flex;
+        justify-content: space-between;
+    }
     .burger{
         padding-left: 10px;
     }
