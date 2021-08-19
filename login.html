@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GloomyStore</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -14,24 +15,39 @@
 </head>
 
 
-
-
 <body>
     <header>
         <div class="header-block">
-            <img class="logo" src="images/logo.svg" alt="icon">
+            <div class="burger-bar">
+                <i class="fas fa-bars burger"></i>
+            </div>
+
             <div class="header1">
-                <a href="index.html">
-                    <h2 class="store-name">Gloomy Store</h2>
-                </a>
+                <div class="logo-logo">
+
+                    <a href="index.html">
+                        <h2 class="store-name">Gloomy Store</h2>
+                    </a>
+                    <img class="logo" src="images/logo.svg" alt="icon">
+                </div>
+                <div class="responsive1">
+                    <img class="icons-11" src="images/bag.png" alt="icons">
+
+
+                </div>
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input type="text" placeholder="what are you looking for?" name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
                 <div class="header2">
                     <a href="join.html">
                         <h2 class="join">Join Us!</h2>
                     </a>
-                    <h4 class="ge"> GE </h4>
-                    <img class="icons" src="images/search.svg" alt="icons">
-                    <img class="icons" src="images/ghost.svg" alt="icons">
-                    <img class="icons-1" src="images/bag.png" alt="icons">
+                    <h4 class="en"> EN </h4>
+                    <a href="login.html"> <img class="user" src="images/user1.png" alt="user"></a>
+                    <a href="cart.html"><img class="user" src="images/shopping-cart1.png" alt="cart"> </a>
+
+
 
                 </div>
             </div>
@@ -72,34 +88,61 @@
                                     <div class="a-1">
                                         <a href="#">men</a>
                                         <img class="arrow3" src="images/arrow.png" alt="arrow">
-                                    </div>
-                                    <div class="dropdown-content1">
-                                        <div class="a-1">
-                                            <a href="#">boots</a>
-                                            <img class="arrow3" src="images/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="a-1">
-                                            <a href="#">creepers</a>
-                                            <img class="arrow3" src="images/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="a-1">
-                                            <a href="#">sandals </a>
-                                            <img class="arrow3" src="images/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="a-1">
-                                            <a href="#">dresses/skirts</a>
-                                            <img class="arrow3" src="images/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="a-1">
-                                            <a href="#">coats/jackets</a>
-                                            <img class="arrow3" src="images/arrow.png" alt="arrow">
-                                        </div>
+                                        <div class="dropdown-content1">
+                                            <div class="a-1">
+                                                <a href="#">boots</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">creepers</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">sandals </a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">dresses/skirts</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">coats/jackets</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
 
+                                        </div>
                                     </div>
+
                                 </div>
-                                <div class="a-1">
-                                    <a href="#">women</a>
-                                    <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                <div class="dropdown1">
+                                    <div class="a-1">
+                                        <a href="#">women</a>
+                                        <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                        <div class="dropdown-content1">
+                                            <div class="a-1">
+                                                <a href="#">boots</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">creepers</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">sandals </a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">dresses/skirts</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+                                            <div class="a-1">
+                                                <a href="#">coats/jackets</a>
+                                                <img class="arrow3" src="images/arrow.png" alt="arrow">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>
@@ -136,28 +179,153 @@
                         <li class="nav-li">About Us</li>
                     </ul>
                 </nav>
+
             </div>
         </div>
+        <div class="first-header">
+            <div class="r-inline">
+                <div id="burger-menu" class="burger-bar">
+                    <i class="fas fa-bars burger"></i>
+                    <ul id="menu" class="menu-ul">
+                        <div class="center">
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Shoes</li>
+                                    <h3 class="plus">+</h3>
+
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+
+                            <div class="burger-nav2">
+                                <div id="burger-menu1" class="burger-nav4">
+                                    <div class="burger-nav1">
+                                        <li class="nav-a1">Clothes</li>
+                                        <h3 class="plus">+</h3>
+                                    </div>
+                                    <div id="menu1" class="clothes-div">
+                                        <div class="clothes-flex">
+                                            <div class="women-div">
+                                                <h2 class="women-h">Women</h2>
+                                                <ul>
+                                                    <li class="women-li">T-Shirts/Shirts </li>
+                                                    <li class="women-li">Hoodies/Cardigans </li>
+                                                    <li class="women-li"> Trousers/Shorts </li>
+                                                    <li class="women-li"> Jackets/Coats </li>
+                                                    <li class="women-li"> Dresses/Skirts</li>
+                                                </ul>
+                                            </div>
+                                            <div class="men-div">
+                                                <h2 class="women-h">Men</h2>
+                                                <ul>
+                                                    <li class="women-li">T-Shirts/Shirts </li>
+                                                    <li class="women-li">Hoodies/Cardigans </li>
+                                                    <li class="women-li"> Trousers/Shorts </li>
+                                                    <li class="women-li"> Jackets/Coats </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Accessories</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Sale</li>
+                                    <h3 class="plus">+</h3>
+
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Blog</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">About us</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                                <img class="burger-line" src="images/burgerline.png" alt="line">
+                            </div>
+                            <div class="burger-nav2">
+                                <div class="burger-nav1">
+                                    <li class="nav-a">Join us</li>
+                                    <h3 class="plus">+</h3>
+                                </div>
+                            </div>
+                            <div class="burger-search">
+                                <img class="ghost3" src="images/ghost.svg" alt="icon">
+                                <div class="search2">
+                                    <h3 class="search-h">Sign in</h3>
+                                    <img class="lope" src="images/search.svg" aria-colcount="image">
+                                </div>
+                            </div>
+                            <img class="burger-line" src="images/burgerline.png" alt="line">
+                            <div class="burger-join">
+                                <h4 class="burg-join">Join our newsletter</h4>
+                                <img class="burger-line2" src="images/Line12.png" alt="line">
+                            </div>
+                        </div>
+
+                        <div class="background">
+
+                        </div>
+                </div>
+
+
+                </ul>
+            </div>
+
+            <div class="resp-icons">
+                <div class="resp-logo">
+                    <img class="logo" src="images/logo.svg" alt="icon">
+                    <a href="index.html">
+                        <h2 class="store-name">Gloomy Store</h2>
+                    </a>
+                </div>
+                <div class="resp-icons1">
+                    <div class="bag-number">
+                        <h4 class="bag-n">1</h4>
+                        <img class="icons-1" src="images/bag.png" alt="icons">
+
+                    </div>
+                    <h4 class="ge"> GE </h4>
+                </div>
+            </div>
+        </div>
+        </div>
     </header>
-
-
     <div class="log-div">
-        <div class="login1">
-            <h3 class="login2">Log In</h3>
+        <form class="login1">
+            
+            <div class="log-margin">
+                <h3 class="login2">Log In</h3>
+                <label for="fname">Username</label><br>
+                <input class="input3" type="text" id="fname" name="fname"><br>
 
-            <label for="fname">Username</label><br>
-            <input class="input3" type="text" id="fname" name="fname"><br>
-
-            <label for="fname">Password</label><br>
-            <input class="input3" type="password" id="pwd" name="pwd"><br>
+                <label for="fname">Password</label><br>
+                <input class="input3" type="password" id="pwd" name="pwd"><br>
+            </div>
             <div class="f-div">
                 <h4 class="forgot">Forgot password?</h4>
             </div>
-            <div class="log-btn">
-                <h3 class="sign">SIGN IN</h3>
+            <div class="sign">
+                <button type="submit" class="log-btn">SIGN IN</button>
             </div>
-            <div class="log-btn">
-                <h3 class="sign">SING UP</h3>
+            <div class="sign">
+                <button type="submit" class="log-btn">SIGN UP</button>
             </div>
             <div class="last">
                 <h3 class="cont">continue as guest </h3>
@@ -166,7 +334,7 @@
             <div class="last1">
                 <p class="log-p">Note! As guest you won't be able to track your order.</p>
             </div>
-        </div>
+        </form>
     </div>
 
     <footer>
@@ -198,7 +366,7 @@
                             <label for="fname"></label>
                             <input class="input88" type="text" id="fname" name="fname"
                                 placeholder="Join our newsletter">
-                            <h3 class="btn">Join</h3>
+                            <h3 class="btn11">Join</h3>
                         </form>
                     </div>
                     <div class="divide-1">

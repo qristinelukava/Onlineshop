@@ -84,32 +84,75 @@
         intrvl = setInterval(animateSlider, interval);
       }
     }
+
+    $("#burger-menu").on("click", function(){
+      $("#menu").toggleClass("open-menu");
+     
+    })
+  
+    $("#burger-menu1").on("click", function(){
+      $("#menu1").toggleClass("open-menu");
+    })
+  
+    $("#burger-menu2").on("click", function(){
+      $("#menu2").toggleClass("open-menu");
+    })
+  
+    $("#burger-menu11").on("click", function(){
+      $("#shoes-drop").toggleClass("open-menu");
+    })
+  
+    $("#burger-menu12").on("click", function(){
+      $("#shoes-menu").toggleClass("open-menu");
+    })
+
+    $("#burger-menu13").on("click", function(){
+      $("#size-menu").toggleClass("open-menu");
+    })
+  
+    $("#sortpopup").on("click", function(){
+      var element = document.getElementById("menu2");
+      element.classList.remove("open-menu")
+    })
+  
+    $("#ghost").on("click", function(){
+      $("#login-menu").toggleClass("open-menu");
+    })
+  
+    $("#burger-menu14").on("click", function(){
+      $("#size-menu3").toggleClass("open-menu");
+    })
+  
+    $("#burger-menu15").on("click", function(){
+      $("#range-menu").toggleClass("open-menu");
+    })
+
+    $("#burger-menu16").on("click", function(){
+      $("#shoes-menu1").toggleClass("open-menu");
+    })
+
+    
+
+  
+    function deleteItem(name) {
+      document.getElementById(name).remove();
+    } 
+  
+    var header = document.getElementsByClassName("size-div");
+    var btns = header.getElementsByClassName("h-size");
+    console.log(btns);
+    alert("1  ");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active"; 
+      });
+    }
+
   }
 
-  $("#burger-menu").on("click", function(){
-    $("#menu").toggleClass("open-menu");
-   
-  })
 
-$("#burger-menu1").on("click", function(){
-  $("#menu1").toggleClass("open-menu");
-})
+  
 
-$("#burger-menu2").on("click", function(){
-  $("#menu2").toggleClass("open-menu");
-})
-
-$("#sortpopup").on("click", function(){
-  var element = document.getElementById("menu2");
-  element.classList.remove("open-menu")
-})
-
-$("#ghost").on("click", function(){
-  $("#login-menu").toggleClass("open-menu");
-})
-
-
-
-function deleteItem(name) {
-  document.getElementById(name).remove();
-} 
+  

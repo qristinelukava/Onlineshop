@@ -427,9 +427,11 @@ right: 0;
 
 .shoes-cat{
     display: none;
+    width:30vw;
+    margin-left: 30px;
 }
-.filter-shoes{
-    display: none;
+.shoes-cat.open-menu{
+    display: block;
 }
 
 
@@ -527,6 +529,45 @@ background-size: contain;
 .cart0{
     width:100%;
 }
+.div-sub{
+    display: none;
+}
+.div-sub.open-menu{
+    display: block;
+}
+.menu-ul8.open-menu{
+    display: block;
+}
+.size-div5{
+    display: none;
+    width: 29vw;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.size-div5.open-menu{
+    display: block;
+}
+.size-div6{
+    width: 30vw;
+    justify-content: space-between;
+}
+.price-range1{
+    display: none;
+}
+.price-range1.open-menu{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -676,6 +717,17 @@ padding-left: 10%;
     height: 90vh;
 padding-left: 0;
 }
+.check-btn{
+    margin-left: 7vw;
+}
+
+
+
+
+
+
+
+
 
 }
 
@@ -952,7 +1004,10 @@ padding-left: 0;
     font-size: 18px;
 }
 
-
+.check-btn{
+    width: 170px;
+    margin-left: 14vw;
+}
 
 
 
@@ -1040,9 +1095,22 @@ padding-left: 10px;
 .divide9{
     height: 2000px;
 }
-
-
-
+.log-div{
+    padding-top: 17px;
+}
+.log-btn{
+    width: 230px;
+}
+.sign{
+    width: 230px;
+}
+.input3{
+    width: 260px;
+}
+.log-margin{
+    margin:0 auto;
+    width: 260px;
+}
 
 
 
@@ -1081,7 +1149,9 @@ padding-left: 10px;
     }
 
     
-
+.check-btn{
+    margin-left: 5vw;
+}
 
 
 
