@@ -384,8 +384,8 @@
     <div class="bg-image2">
         <div class="big-div1">
             <div class="hover-img">
-                <div class="product_preview" >
-                    <div class="left-side" >
+                <div class="product_preview">
+                    <div class="left-side">
                         <img class="img12" src="images/shoes.png" alt="Image1">
                         <img class="img12" src="images/shoes.png" alt="Image2">
                         <img class="img12" src="images/shoes.png" alt="Image3">
@@ -393,15 +393,15 @@
                     </div>
                 </div>
             </div>
-            
-                <!-- <div class="small-div2">
+
+            <!-- <div class="small-div2">
                     <img class="img4" src="images/image2.svg" alt="iamge">
                     <img class="img4" src="images/image3.svg" alt="iamge">
                     <img class="img4" src="images/image4.svg" alt="iamge">
                     <img class="img4" src="images/image5.svg" alt="iamge">
                     <h3 class="color">colors</h3>
                 </div> -->
-            
+
             <div class="div4">
                 <div class="small-div3">
                     <h4 class="new"> New Rock </h4>
@@ -420,7 +420,7 @@
                     <button class="btn">M</button>
                     <button class="btn">L</button>
                     <button class="btn active1 ">XL</button>
-                   
+
                 </div>
 
                 <div class="buy">
@@ -464,9 +464,9 @@
                         <label class="size-ch" for="size">Size</label>
                         <select class="size-select" name="size" id="size">
                             <option value="s">S</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                            <option value="xl">XL</option>
+                            <option class="s-select" value="m">M</option>
+                            <option class="s-select" value="l">L</option>
+                            <option class="s-select" value="xl">XL</option>
                         </select>
                         <br><br>
                     </div>
@@ -672,8 +672,8 @@
 
 
 
-       
-       
+
+
         <footer>
             <div class="bg-image">
 
@@ -752,18 +752,8 @@
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="slider.js"></script>
-        <script>
-            // Add active class to the current button (highlight it)
-            var header = document.getElementById("myDIV");
-            var btns = header.getElementsByClassName("btn");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function () {
-                    var current = document.getElementsByClassName("active1");
-                    current[0].className = current[0].className.replace(" active1", "");
-                    this.className += " active1";
-                });
-            }
-        </script>
+        
+     
          <script>
             const productPreview = document.querySelector('.product_preview');
             const leftSide = document.querySelector('.left-side');
@@ -783,6 +773,14 @@
             });
     
             
+        </script>
+        <script>
+            var selector = 'button';
+
+$(selector).on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+});
         </script>
 
 </body>

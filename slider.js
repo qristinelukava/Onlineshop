@@ -114,6 +114,10 @@
       var element = document.getElementById("menu2");
       element.classList.remove("open-menu")
     })
+    $("#sortpopup").on("click", function(){
+      var element = document.getElementById("sort-menu");
+      element.classList.remove("open-menu")
+    })
   
     $("#ghost").on("click", function(){
       $("#login-menu").toggleClass("open-menu");
@@ -130,6 +134,9 @@
     $("#burger-menu16").on("click", function(){
       $("#shoes-menu1").toggleClass("open-menu");
     })
+    $("#sort").on("click", function(){
+      $("#sort-menu").toggleClass("open-menu");
+    })
 
     
 
@@ -143,7 +150,7 @@
     console.log(btns);
     alert("1  ");
       for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
+        btns[i].addEventListener("click",function setColor(btn, color)  {
         var current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active"; 
@@ -152,7 +159,6 @@
 
   }
 
-
-  
+ 
 
   

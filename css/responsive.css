@@ -273,7 +273,7 @@ ul{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 600px;
+    height: 300px;
   }
 
   .slides {
@@ -424,7 +424,17 @@ right: 0;
 .resp-filter.open-menu{
     display: block;
 }
+.resp-sortr {
+    display: none;
+    position: fixed;
+left: 0;
+top: 68px;
+right: 0;
 
+}
+.resp-sort.open-menu{
+    display: block;
+}
 .shoes-cat{
     display: none;
     width:30vw;

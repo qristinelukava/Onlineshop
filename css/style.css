@@ -631,12 +631,13 @@ margin-top: 10px;
   }
   
   .dots {
-    position: relative;
+    position: absolute;
     left: 0;
     display: flex;
     justify-content: center;
     width: 100%;
-    top:690px;
+    bottom: 15%;
+    height: 20px;
   }
   
   .dot {
@@ -650,7 +651,7 @@ margin-top: 10px;
   }
   
   .active-dot {
-    background: #411568;
+    background: #666;
     cursor: default;
 
   }
@@ -1161,6 +1162,48 @@ margin:0 auto;
   
   
 }
+.resp-sort{
+  display: none;
+  cursor: pointer;
+  width: 96vw;
+  height: 100vh;
+  background:url(../images/black.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 19;
+  position: relative;
+  padding-top: 20px;
+  
+  
+}
+.sort-flex{
+  display: flex;
+  width: 71vw;
+  justify-content: space-between;
+}
+.sort-flex1{
+  display: flex;
+  width: 68vw;
+  margin-bottom: 30px;
+  
+}
+
+.sort-form{
+  width: 80vw;
+  margin:0 auto;
+  margin-top: 20px;
+}
+.sort-h{
+  font-size: 18px;
+  color: white;
+}
+.sort-h1{
+  font-size: 20px;
+  color: white;
+  margin-left: 25px;
+}
+
+
 .filter-shoes {
   display: flex;
   cursor: pointer;
@@ -1182,7 +1225,7 @@ margin:0 auto;
   display: flex;
   justify-content: space-between;
   padding-bottom: 35px;
-  width: 57vw;
+  width: 52vw;
  
 }
 .filter-h{
@@ -1194,6 +1237,14 @@ margin:0 auto;
   cursor: pointer;
   width: 72vw;
   justify-content: space-between;
+}
+.filter-btns1{
+  display: flex;
+  cursor: pointer;
+  width: 72vw;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 .f-btn{
   max-width: 145px;
@@ -1245,21 +1296,216 @@ margin-top: 3%;
   padding-top: 5px;
 
 }
-.s-div5{
-  width:60px;
-  height: 39px;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  border: 2px solid #2F1A4F;
-  border-radius: 10px;
-  margin-top: 15px;
-  padding-top: 5px;
-  background-color:#2F1A4F ;
+
+.s-div1.active{
+  background-color: #2F1A4F;
 }
 .size-div6{
   display: flex;
 }
+::marker{
+  display: none;
+}
+.box-box{
+  background-color: transparent;
+}
+
+
+
+
+
+/* price range */
+
+
+
+.container {
+  margin-top: 125px;
+}
+.row{
+  margin-bottom: 20px;
+}
+.slider-labels {
+  margin-top: 10px;
+  color: white;
+  display: flex;
+}
+.range-input{
+   max-width: 180px;
+   width: 100%;
+   height: 39px;
+   border-radius: 5px;
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   text-align: center;
+}
+.range-form {
+  margin:0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+.range-h {
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+}
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+.noUi-target,.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+  direction: ltr;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+/* Fix 401 */
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-stacking .noUi-handle {
+/* This class is applied to the lower origin when
+   its values is > 50%. */
+  z-index: 10;
+}
+
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left 0.3s,top .3s;
+  transition: left 0.3s,top .3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base,.noUi-handle {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  left: -7px;
+  top: -7px;
+  background-color:#2E0352;
+}
+
+/* Styling;
+ */
+.noUi-background {
+  background: #170129;
+  
+}
+
+.noUi-connect {
+  background: #2E0352;
+  -webkit-transition: background 450ms;
+  transition: background 450ms;
+}
+
+.noUi-origin {
+  border-radius: 2px;
+}
+
+.noUi-target {
+  border-radius: 2px;
+}
+
+.noUi-target.noUi-connect {
+}
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: w-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+
+.noUi-handle {
+  cursor: default;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+
+.noUi-handle:active {
+  border: 8px solid #345DBB;
+  border: 8px solid rgba(53,93,187,0.38);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  left: -14px;
+  top: -14px;
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+
+[disabled].noUi-origin,[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1398,6 +1644,7 @@ margin-top: 3%;
   background-position: 50%;
   background: no-repeat;
   margin: 10px auto;
+  background-size: 100%;
 }
 .div2{
   max-width: 90px;
@@ -1434,6 +1681,10 @@ margin-top: 3%;
 .div4 {
 width: 320px;
 
+}
+.s-select{
+  color: black;
+  text-align: center;
 }
 .new {
   font-size: 18px;
@@ -1492,20 +1743,21 @@ width: 320px;
   justify-content: space-between;
   margin-top: 15px;
 }
-.btn:hover {
-    background-color: #666;
-    color: white;
-}
-.btn {
+
+.btn
+ {
   max-width: 65px;
   width: 100%;
   height: 40px;
   border-radius: 5px;
   cursor: pointer;
   background-color: #411568;
+  color: white;
  
 }
-
+.btn.active{
+  background-color:gray;
+}
 .h-size {
   font-size: 24px;
   color: white;
