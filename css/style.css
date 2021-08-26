@@ -63,6 +63,7 @@
   max-width: 26px;
   width: 100%;
   margin-right: 20px;
+  cursor: pointer;
 }
 .icons-1 {
     max-width: 26px;
@@ -70,7 +71,7 @@
     height: 27px;
     margin-top: 3px;
     position: absolute;
-    
+    cursor: pointer;
  }
  .icons-11 {
   max-width: 26px;
@@ -190,9 +191,8 @@ width: 100%;
     margin-top: 50px;
     right: 50px;
   }
-  .icons-1:hover +  .popup-cart{
+  .popup-cart.open-menu{
     display: block;
-   
   }
   .pop1 {
     display: flex;
@@ -200,7 +200,7 @@ width: 100%;
     width: 100%;
     height: 56px;
     justify-content: space-between;
-   
+    margin-top: 20px;
   }
   .pop2 {
     display: flex;
@@ -209,7 +209,7 @@ width: 100%;
     height: 56px;
     justify-content: space-between;
     margin-bottom: 12px;
-   
+    margin-top: 20px;
   }
   .pop-img {
     max-width: 65px;
@@ -227,7 +227,7 @@ width: 100%;
   }
 
   .pop-line{
-    margin-bottom: 8px;
+    margin-top: 30px;
   }
 
   .div-x5{
@@ -285,7 +285,7 @@ width: 100%;
   top:300px;
   right: 700px;
 }
-.icons-2.open-menu{
+.login-pop.open-menu{
   display: block;
 }
 .log-pop{
@@ -1159,7 +1159,7 @@ margin:0 auto;
   z-index: 19;
   position: relative;
   padding-top: 20px;
-  
+  overflow: scroll;
   
 }
 .resp-sort{
@@ -1247,7 +1247,7 @@ margin:0 auto;
   margin-top: 15px;
 }
 .f-btn{
-  max-width: 145px;
+  max-width: 120px;
   width: 100%;
   height: 45px;
   border: 2px solid white;
@@ -1317,9 +1317,8 @@ margin-top: 3%;
 /* price range */
 
 
-
-.container {
-  margin-top: 125px;
+.container1 {
+  margin-top: 50px;
 }
 .row{
   margin-bottom: 20px;
@@ -1330,7 +1329,7 @@ margin-top: 3%;
   display: flex;
 }
 .range-input{
-   max-width: 180px;
+   max-width: 100px;
    width: 100%;
    height: 39px;
    border-radius: 5px;
@@ -1344,7 +1343,7 @@ margin-top: 3%;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-
+width: 65vw;
   
 }
 .range-h {

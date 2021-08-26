@@ -259,7 +259,7 @@ ul{
    }
    .slider {height: 592px;}
    .flex2{
-    height: 592px;
+    height: 566px;
    }
    .sec1-div {
        bottom: 100px;
@@ -274,6 +274,7 @@ ul{
     background-repeat: no-repeat;
     position: relative;
     height: 300px;
+    padding-top: 600px;
   }
 
   .slides {
@@ -550,7 +551,7 @@ background-size: contain;
 }
 .size-div5{
     display: none;
-    width: 29vw;
+    width: 40vw;
     margin:0 auto;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -560,7 +561,7 @@ background-size: contain;
     display: block;
 }
 .size-div6{
-    width: 30vw;
+    width: 40vw;
     justify-content: space-between;
 }
 .price-range1{
@@ -724,7 +725,7 @@ padding-left: 10%;
     font-size: 20px;
 }
 .bg-7{
-    height: 90vh;
+    height: 130vh;
 padding-left: 0;
 }
 .check-btn{
@@ -984,13 +985,15 @@ padding-left: 0;
 }
 .join-bt{
     width:200px;
-    height: 50px;
+    height: 70px;
 }
 .big-div5{
     padding-left: 20px;
     height: 1600px;
 }
-
+.send-btn{
+    text-align: center;
+}
 .promo1{
     width:150px;
     font-size:18px
