@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GloomyStore</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
 
-    <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -42,8 +40,8 @@
                     </a>
                     <h4 class="ge"> GE </h4>
                     <img class="icons" src="images/search.svg" alt="icons">
-                    <img class="icons-2" src="images/ghost.svg" alt="icons">
-                    <div class="login-pop">
+                    <img id="ghost" class="icons-2" src="images/ghost.svg" alt="icons">
+                    <div id="login-menu" class="login-pop">
                         <h3 class="log-pop">Log In</h3>
                         <div class="pop-input">
 
@@ -64,10 +62,10 @@
                     </div>
                     <div class="bag-number">
                         <h4 class="bag-n">1</h4>
-                        <img class="icons-1" src="images/bag.png" alt="icons">
+                        <img id="cart" class="icons-1" src="images/bag.png" alt="icons">
 
                     </div>
-                    <div class="popup-cart">
+                    <div id="cart-menu" class="popup-cart">
                         <div class="pop1">
                             <img class="pop-img" src="images/pop-img.png" alt="image">
                             <div class="pop-mini">
@@ -130,23 +128,23 @@
                             <li class="nav-li6">Clothes</li>
                             <div class="dropdown-content content1">
                                 <div class="a-1">
-                                    <a href="#">t-shirts</a>
+                                    <a href="newcollection.html">t-shirts</a>
                                     <img class="arrow3" src="images/arrow.png" alt="arrow">
                                 </div>
                                 <div class="a-1">
-                                    <a href="#">hoodies/cardigans</a>
+                                    <a href="newcollection.html">hoodies/cardigans</a>
                                     <img class="arrow3" src="images/arrow.png" alt="arrow">
                                 </div>
                                 <div class="a-1">
-                                    <a href="#">trousers/shorts </a>
+                                    <a href="newcollection.html">trousers/shorts </a>
                                     <img class="arrow3" src="images/arrow.png" alt="arrow">
                                 </div>
                                 <div class="a-1">
-                                    <a href="#">dresses/skirts</a>
+                                    <a href="newcollection.html">dresses/skirts</a>
                                     <img class="arrow3" src="images/arrow.png" alt="arrow">
                                 </div>
                                 <div class="a-1">
-                                    <a href="#">coats/jackets</a>
+                                    <a href="newcollection.html">coats/jackets</a>
                                     <img class="arrow3" src="images/arrow.png" alt="arrow">
                                 </div>
 
@@ -166,19 +164,19 @@
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">creepers</a>
+                                                <a href="newcollection.html">creepers</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">sandals </a>
+                                                <a href="newcollection.html">sandals </a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">dresses/skirts</a>
+                                                <a href="newcollection.html">dresses/skirts</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">coats/jackets</a>
+                                                <a href="newcollection.html">coats/jackets</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
 
@@ -192,23 +190,23 @@
                                         <img class="arrow3" src="images/arrow.png" alt="arrow">
                                         <div class="dropdown-content1">
                                             <div class="a-1">
-                                                <a href="#">boots</a>
+                                                <a href="newcollection.html">boots</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">creepers</a>
+                                                <a href="newcollection.html">creepers</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">sandals </a>
+                                                <a href="newcollection.html">sandals </a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">dresses/skirts</a>
+                                                <a href="newcollection.html">dresses/skirts</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
                                             <div class="a-1">
-                                                <a href="#">coats/jackets</a>
+                                                <a href="newcollection.html">coats/jackets</a>
                                                 <img class="arrow3" src="images/arrow.png" alt="arrow">
                                             </div>
 
@@ -256,8 +254,8 @@
         </div>
         <div class="first-header">
             <div class="r-inline">
-                <div id="burger-menu" class="burger-bar">
-                    <i class="fas fa-bars burger"></i>
+                <div class="burger-bar">
+                    <i  id="burger-menu" class="fas fa-bars burger"></i>
                     <ul id="menu" class="menu-ul">
                         <div class="center">
                             <div class="burger-nav2">
@@ -379,8 +377,6 @@
         </div>
         </div>
     </header>
-
-
 
 
     <section class="body">
@@ -602,7 +598,7 @@
                                         <div id="sortpopup" class="f-btn">
                                             <h3 class="cancel">Filter</h3>
                                         </div>
-                                        <div class="f-btn">
+                                        <div id="cancle1" class="f-btn">
                                             <h3 class="cancel">Cancel</h3>
                                         </div>
                                     </div>
@@ -633,7 +629,7 @@
                         <img id="sort" class="filter" src="images/iconfinderFilter_4737438.png" alt="icon">
                         <div id="sort-menu" class="resp-filter">
                             <div class="f-flex">
-                                <img class="path" id="sortpopup" src="images/Path127.png" alt="icon">
+                                <img class="path" id="sortpopup1" src="images/Path127.png" alt="icon">
                                 <h3 class="filter-h">Sort by</h3>
                             </div>
                             <div class="radio">
@@ -679,7 +675,7 @@
                                     <div class="f-btn">
                                         <h3 class="cancel">Filter</h3>
                                     </div>
-                                    <div class="f-btn">
+                                    <div id="cancle2" class="f-btn">
                                         <h3 class="cancel">Cancel</h3>
                                     </div>
                                 </div>

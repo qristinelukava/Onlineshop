@@ -732,9 +732,13 @@ padding-left: 0;
     margin-left: 7vw;
 }
 
+.d-first{
+    margin-top: 15px;
+}
 
-
-
+.flex7{
+    margin-bottom: 20px;
+}
 
 
 
@@ -890,6 +894,7 @@ padding-left: 0;
     .big-div {
     padding: 0 5px;
     padding-top: 50px;
+    margin: 0 auto;
 }
     .img1 {width: 100px;
     height: 115px;}
@@ -989,7 +994,7 @@ padding-left: 0;
 }
 .big-div5{
     padding-left: 20px;
-    height: 1600px;
+    height: 1700px;
 }
 .send-btn{
     text-align: center;
@@ -1011,6 +1016,7 @@ padding-left: 0;
 
 .check-out1{
     width: 140px;
+    text-align: center;
     
 }
 .check-out{

@@ -114,7 +114,15 @@
       var element = document.getElementById("menu2");
       element.classList.remove("open-menu")
     })
-    $("#sortpopup").on("click", function(){
+    $("#sortpopup1").on("click", function(){
+      var element = document.getElementById("sort-menu");
+      element.classList.remove("open-menu")
+    })
+    $("#cancle1").on("click", function(){
+      var element = document.getElementById("menu2");
+      element.classList.remove("open-menu")
+    })
+    $("#cancle2").on("click", function(){
       var element = document.getElementById("sort-menu");
       element.classList.remove("open-menu")
     })
