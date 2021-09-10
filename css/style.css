@@ -27,11 +27,13 @@
     width: 100%;
    padding-left: 210px;
    padding-right: 20px;
+
 }
 .store-name {
-    font-size: 36px;
+    font-size: 24px;
     color: white;
     margin-top: 10px;
+    font-family: 'Mom \'sTypewriter';
 }
 .header2 {
     display: flex;
@@ -42,6 +44,7 @@
     font-size: 32px;
     color: white;
     width: 200px;
+    font-family: 'They Perished';
 }
 .ge {
     width: 48px;
@@ -92,6 +95,7 @@
  .nav-li {
      font-size: 18px;
      color: white;
+     font-family: 'Segoe UI';
  }
  .nav-li6{
   font-size: 18px;
@@ -99,6 +103,7 @@
   margin-left: 20px;
  width: 95px;
  height: 30px;
+ font-family: 'Segoe UI';
   
  }
  .dropdown {
@@ -262,6 +267,7 @@ width: 100%;
 .pop-h {
   font-size: 14px;
   color: white;
+  font-family: 'They Perished';
 }
 .pop-h1{
   font-size: 12px;
@@ -292,6 +298,7 @@ width: 100%;
   font-size: 22px;
   color: white;
   margin-top: 40px;
+  font-family: 'They Perished';
 }
 .pop-input{
   height: 80px;
@@ -452,11 +459,13 @@ margin-top: 10px;
 .nav-a{
   font-size: 18px;
   color: white;
+  font-family: 'They Perished';
 }
 .nav-a1{
   font-size: 18px;
   color: white;
   height: 20px;
+  font-family: 'They Perished';
 }
 .plus{
   font-size: 20px;
@@ -690,12 +699,14 @@ margin-top: 10px;
     font-size: 56px;
     color: white;
     margin-bottom: 10px;
+    font-family: 'Deutsche Zierschrift';
 }
 .sec1-p {
     font-size: 24px;
     color:white;
     margin-bottom: 20px;
     margin-left: 50px;
+    font-family: 'Segoe UI';
 }
 .btn9 {
     font-size: 24px;
@@ -709,6 +720,7 @@ margin-top: 10px;
     text-align: center;
     padding-top: 13px;
     margin-left: 50px;
+    font-family: 'They Perished';
 }
 
 
@@ -740,17 +752,20 @@ margin-top: 10px;
     border: 2px solid #411568 ;
     text-align: center;
     padding-top: 13px;
+    font-family: 'They Perished';
     
 }
 .header22 {
     font-size: 56px;
     color: white;
     margin-bottom: 10px;
+    font-family: 'Deutsche Zierschrift';
 }
 .sec2-p {
     font-size: 24px;
     color:white;
     margin-bottom: 30px;
+    font-family: 'Segoe UI';
     
 }
   
@@ -877,6 +892,7 @@ position: relative; }
     text-align: center;
     padding-top: 13px;
     margin-left: 50px;
+    font-family: 'They Perished';
     
 }
 
@@ -885,6 +901,7 @@ position: relative; }
     color:white;
     margin-bottom: 45px;
     margin-left: 50px;
+    font-family: 'Segoe UI';
     
 }
   
@@ -922,6 +939,7 @@ position: relative; }
   font-size: 36px;
   color: white;
   margin-top: 10px;
+  font-family: 'Mom \'sTypewriter';
 }
  .footer-block {
   
@@ -942,6 +960,7 @@ position: relative; }
      font-size: 18px;
      color: #707070;
      margin-bottom: 20px;
+     font-family: 'Segoe UI';
  }
  .company {
      font-size: 24px;
@@ -949,6 +968,7 @@ position: relative; }
      color: white;
      margin-bottom: 20px;
      text-transform: capitalize;
+     font-family: 'Segoe UI';
  }
 .divide-1 {
     
@@ -999,6 +1019,7 @@ position: relative; }
   height: 30px;
   font-size: 18px;
   margin-top: 10px;
+  font-family: 'Segoe UI';
 }
 .input {
     max-width: 600px;
@@ -1016,6 +1037,7 @@ position: relative; }
     margin-left: 10px;
     margin-top: 10px;
     height: 35px;
+    font-family: 'They Perished';
 }
 .resp-div{
   display: none;
@@ -1050,7 +1072,7 @@ margin:0 auto;
 .collection {
   font-size: 36px;
   color: white;
- 
+  font-family: 'Mom \'sTypewriter';
   padding-top: 10%;
   
   
@@ -1231,6 +1253,7 @@ margin:0 auto;
 .filter-h{
   font-size: 24px;
   color:white;
+  font-family: 'They Perished';
 }
 .filter-btns{
   display: flex;
@@ -1258,6 +1281,7 @@ margin:0 auto;
 .cancel{
   font-size: 16px;
   color:white;
+  font-family: 'They Perished';
 }
 .burger-nav9{
   width: 71vw;
@@ -1578,11 +1602,13 @@ width: 65vw;
 .page {
   font-size: 24px;
   color: white;
+  font-family: 'Deutsche Zierschrift';
 }
 .numbers, .h3-1, .h3-2 {
   font-size: 24px;
   color: white;
   justify-content: space-between;
+  font-family: 'Deutsche Zierschrift';
 }
 
 
@@ -1695,6 +1721,7 @@ width: 320px;
   font-size: 24px;
   color:white;
   margin-bottom: 10px;
+  font-family: 'They Perished';
 }
 .paragraph  {
   font-size: 16px;
@@ -1790,6 +1817,7 @@ width: 320px;
 .add {
   font-size: 20px;
   color: white;
+  font-family: 'They Perished';
 }
 .h4-1 {
   font-size: 18px;
@@ -1880,6 +1908,7 @@ width: 320px;
   font-size: 36px;
   color: #A8A8A8;
   margin-bottom: 15px;
+  font-family: 'They Perished';
 }
 .left-p1 {
   font-size: 18px;
@@ -1904,6 +1933,7 @@ width: 320px;
 .rewiev {
   font-size: 36px;
   color: #A8A8A8;
+  font-family: 'They Perished';
 }
 .h3-5 {
   
@@ -1923,6 +1953,7 @@ width: 320px;
   font-size: 24px;
   color: #A8A8A8;
   margin-bottom: 15px;
+  font-family: 'They Perished';
 }
 .lorem{
   font-size: 21px;
@@ -1967,6 +1998,7 @@ width: 320px;
 .head1{
   font-size: 36px;
   color: #A8A8A8;
+  font-family: 'They Perished';
 }
 .bag-color{
   max-width: 40px;
@@ -1998,6 +2030,7 @@ width: 320px;
 .cart {
   color: #BCBABA;
   font-size: 36px;
+  font-family: 'Deutsche Zierschrift';
 }
 .divide5{
   width: 100%;
@@ -2196,6 +2229,7 @@ width: 100%;
   font-size: 21px;
   color: white;
   padding-top: 22px;
+  font-family: 'They Perished';
 }
 .container9 {
   display: flex;
@@ -2232,6 +2266,7 @@ width: 100%;
 .join-head {
   font-size: 48px;
   color: #707070;
+  font-family: 'They Perished';
 }
 .join1 {
   width: 100%;
@@ -2288,6 +2323,7 @@ form.example button {
 .join-p{
   font-size: 36px;
   color: #707070;
+  font-family: 'Segoe UI';
 }
 .pic {
   max-width: 140px;
@@ -2317,6 +2353,7 @@ form.example button {
   color: #707070;
   text-decoration: underline;
   margin-bottom: 30px;
+  font-family: 'Segoe UI';
 }
 .join5{
   max-width: 1438px;
@@ -2349,6 +2386,7 @@ form.example button {
   color: white;
   padding-left: 10px;
   background-color: transparent;
+  font-family: 'Segoe UI';
 }
 .input-icon {
   display: flex;
@@ -2372,7 +2410,7 @@ form.example button {
   height: 78px;
   background-color: white;
  text-align: center;
- 
+ font-family: 'Deutsche Zierschrift';
  margin-top: 50px;
  font-size: 48px;
  color: #707070;
@@ -2401,6 +2439,7 @@ form.example button {
   font-size: 24px;
   color: black;
   margin-bottom: 50px;
+  font-family: 'They Perished';
   
  
 }
@@ -2478,6 +2517,7 @@ form.example button {
   color: black;
   margin-bottom: 50px;
   margin-left: 30px;
+  font-family: 'They Perished';
 
 }
 .check-div {

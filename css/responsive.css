@@ -412,7 +412,7 @@ nav{
 .big-div{
     padding-left: 20px;
     padding-right: 20px;
-    position: absolute;
+    
 }
 .resp-filter {
     display: none;
@@ -593,7 +593,9 @@ background-size: contain;
 padding-left: 10%;
 }
 
-
+.store-name{
+    font-size: 16px;
+}
 
 
 
@@ -616,7 +618,7 @@ padding-left: 10%;
 
 @media (max-width:557px) {
     .store-name {
-        font-size: 20px;
+        font-size: 16px;
         padding-top: 10px;
     }
     .logo{
@@ -688,6 +690,7 @@ padding-left: 10%;
 
 .collection{
     font-size: 24px;
+
 }
 
 
@@ -892,9 +895,9 @@ padding-left: 0;
         padding-left: 17px;
     }
     .big-div {
-    padding: 0 5px;
-    padding-top: 50px;
-    margin: 0 auto;
+    padding: 1px 5px;
+    
+   
 }
     .img1 {width: 100px;
     height: 115px;}
@@ -962,7 +965,7 @@ padding-left: 0;
             }
             
     .body{
-        height: 1800px;
+        height: 1705px;
     }
 
 .input8, .label1 {
@@ -1081,7 +1084,7 @@ padding-left: 0;
       height: 90px;
         }
  .big-div{
-      padding-top:0;
+      padding-top:30px;
         }
 
 .collection{

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mom \'sTypewriter';
+    src: url('MomsTypewriter.eot');
+    src: url('MomsTypewriter.eot?#iefix') format('embedded-opentype'),
+        url('MomsTypewriter.woff2') format('woff2'),
+        url('MomsTypewriter.woff') format('woff'),
+        url('MomsTypewriter.ttf') format('truetype'),
+        url('MomsTypewriter.svg#MomsTypewriter') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

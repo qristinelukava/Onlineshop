@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Deutsche Zierschrift';
+    src: url('DeutscheZierschrift.eot');
+    src: url('DeutscheZierschrift.eot?#iefix') format('embedded-opentype'),
+        url('DeutscheZierschrift.woff2') format('woff2'),
+        url('DeutscheZierschrift.woff') format('woff'),
+        url('DeutscheZierschrift.ttf') format('truetype'),
+        url('DeutscheZierschrift.svg#DeutscheZierschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
