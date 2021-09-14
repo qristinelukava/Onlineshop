@@ -39,7 +39,7 @@
                     <a href="join.html">
                         <h2 class="join">Join Us!</h2>
                     </a>
-                    <h4 class="ge"> GE </h4>
+                    <button class="ge"> GE </button>
                     <img class="icons" src="images/search.svg" alt="icons">
                     <img id="ghost" class="icons-2" src="images/ghost.svg" alt="icons">
                     <div id="login-menu" class="login-pop">
@@ -256,7 +256,7 @@
         <div class="first-header">
             <div class="r-inline">
                 <div class="burger-bar">
-                    <i  id="burger-menu" class="fas fa-bars burger"></i>
+                    <i id="burger-menu" class="fas fa-bars burger"></i>
                     <ul id="menu" class="menu-ul">
                         <div class="center">
                             <div class="burger-nav2">
@@ -388,9 +388,9 @@
                 <div class="product_preview">
                     <div class="left-side">
                         <img class="img12" src="images/shoes.png" alt="Image1">
-                        <img class="img12" src="images/shoes.png" alt="Image2">
-                        <img class="img12" src="images/shoes.png" alt="Image3">
-                        <img class="img12" src="images/shoes.png" alt="Image4">
+                        <img class="img12" src="images/boot3.png" alt="Image2">
+                        <img class="img12" src="images/cart2.png" alt="Image3">
+                        <img class="img12" src="images/boot2.png" alt="Image4">
                     </div>
                 </div>
             </div>
@@ -442,7 +442,12 @@
 
         <div class="for-resp">
             <div class="product-resp">
-                <img class="img3" src="images/shoes.png">
+                <div class="product-flex3">
+                    <img class="img13" src="images/shoes.png" alt="Image1">
+                    <img class="img13" src="images/boot3.png" alt="Image2">
+                    <img class="img13" src="images/cart2.png" alt="Image3">
+                    <img class="img13" src="images/boot2.png" alt="Image4">
+                </div>
                 <div class="small-div2">
                     <img class="img4" src="images/image2.svg" alt="iamge">
                     <img class="img4" src="images/image3.svg" alt="iamge">
@@ -704,7 +709,7 @@
                                 <label for="fname"></label>
                                 <input class="input88" type="text" id="fname" name="fname"
                                     placeholder="Join our newsletter">
-                                <h3 class="btn11">Join</h3>
+                                <button class="btn11">Join</button>
                             </form>
                         </div>
                         <div class="divide-1">
@@ -753,9 +758,9 @@
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="slider.js"></script>
-        
-     
-         <script>
+
+
+        <script>
             const productPreview = document.querySelector('.product_preview');
             const leftSide = document.querySelector('.left-side');
             const images = document.querySelectorAll('img');
@@ -763,25 +768,25 @@
             const rightSide = document.createElement('div');
             productPreview.appendChild(rightSide);
             rightSide.classList.add('right-side');
-            rightSide.style.cssText+= `background-image: url('images/shoes.png')`;
-    
+            rightSide.style.cssText += `background-image: url('images/shoes.png')`;
+
             images.forEach(image => {
-                image.addEventListener('click', function() {
+                image.addEventListener('click', function () {
                     let src = image.src;
-                    rightSide.style.cssText+= `background-image: url(${src})`;
-                    
+                    rightSide.style.cssText += `background-image: url(${src})`;
+
                 })
             });
-    
-            
+
+
         </script>
         <script>
             var selector = 'button';
 
-$(selector).on('click', function(){
-    $(selector).removeClass('active');
-    $(this).addClass('active');
-});
+            $(selector).on('click', function () {
+                $(selector).removeClass('active');
+                $(this).addClass('active');
+            });
         </script>
 
 </body>

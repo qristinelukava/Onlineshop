@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Deutsche Zierschrift';
-    src: url('../font/DeutscheZierschrift.eot');
-    src: url('../font/DeutscheZierschrift.eot?#iefix') format('embedded-opentype'),
-        url('../font/DeutscheZierschrift.woff2') format('woff2'),
-        url('../font/DeutscheZierschrift.woff') format('woff'),
-        url('../font/DeutscheZierschrift.ttf') format('truetype'),
-        url('../font/DeutscheZierschrift.svg#DeutscheZierschrift') format('svg');
+    src: url('../css/DeutscheZierschrift.eot');
+    src: url('../css/DeutscheZierschrift.eot?#iefix') format('embedded-opentype'),
+        url('../css/DeutscheZierschrift.woff2') format('woff2'),
+        url('../css/DeutscheZierschrift.woff') format('woff'),
+        url('../css/DeutscheZierschrift.ttf') format('truetype'),
+        url('../css/DeutscheZierschrift.svg#DeutscheZierschrift') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -14,36 +14,36 @@
 
 @font-face {
     font-family: 'They Perished';
-    src: url('../font/TheyPerished.eot');
-    src: url('../font/TheyPerished.eot?#iefix') format('embedded-opentype'),
-        url('../font/TheyPerished.woff2') format('woff2'),
-        url('../font/TheyPerished.woff') format('woff'),
-        url('../font/TheyPerished.ttf') format('truetype'),
-        url('../font/TheyPerished.svg#TheyPerished') format('svg');
+    src: url('../css/TheyPerished.eot');
+    src: url('../css/TheyPerished.eot?#iefix') format('embedded-opentype'),
+        url('../css/') format('woff2'),
+        url('../css/TheyPerished.woff') format('woff'),
+        url('../css/TheyPerished.ttf') format('truetype'),
+        url('../css/TheyPerished.svg#TheyPerished') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Mom \'sTypewriter';
-    src: url('../font/MomsTypewriter.eot');
-    src: url('../font/MomsTypewriter.eot?#iefix') format('embedded-opentype'),
-        url('../font/MomsTypewriter.woff2') format('woff2'),
-        url('../font/MomsTypewriter.woff') format('woff'),
-        url('../font/MomsTypewriter.ttf') format('truetype'),
-        url('../font/MomsTypewriter.svg#MomsTypewriter') format('svg');
+    src: url('../css/MomsTypewriter.eot');
+    src: url('../css/') format('embedded-opentype'),
+        url('../css/MomsTypewriter.woff2') format('woff2'),
+        url('../css/MomsTypewriter.woff') format('woff'),
+        url('../css/MomsTypewriter.ttf') format('truetype'),
+        url('../css/MomsTypewriter.svg#MomsTypewriter') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Segoe UI';
-    src: url('../font/SegoeUI-BoldItalic.eot');
-    src: url('../font/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../font/SegoeUI-BoldItalic.woff2') format('woff2'),
-        url('../font/SegoeUI-BoldItalic.woff') format('woff'),
-        url('../font/SegoeUI-BoldItalic.ttf') format('truetype'),
-        url('../font/SegoeUI-BoldItalic.svg#SegoeUI-BoldItalic') format('svg');
+    src: url('../css/SegoeUI-BoldItalic.eot');
+    src: url('../css/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../css/SegoeUI-BoldItalic.woff2') format('woff2'),
+        url('../css/SegoeUI-BoldItalic.woff') format('woff'),
+        url('../css/SegoeUI-BoldItalic.ttf') format('truetype'),
+        url('../css/SegoeUI-BoldItalic.svg#SegoeUI-BoldItalic') format('svg');
     font-weight: normal;
     font-style:normal;
     font-display: swap;

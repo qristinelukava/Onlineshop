@@ -54,8 +54,8 @@
     border-radius: 30px;
     background-color: #271241;
     text-align: center;
-    padding-top: 11px;
     margin-right: 20px;
+   
 } 
 .icons {
    max-width: 26px;
@@ -91,6 +91,9 @@
      display: flex;
      justify-content: space-between;
      cursor: pointer;
+ }
+ .nav-ul1{
+  cursor: pointer;
  }
  .nav-li {
      font-size: 18px;
@@ -288,8 +291,8 @@ width: 100%;
   text-align: center;
   padding:15px;
   display: none;
-  top:300px;
-  right: 700px;
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 .login-pop.open-menu{
   display: block;
@@ -309,6 +312,7 @@ width: 100%;
   width: 100%;
   height: 35px;
   margin: 10px;
+
 }
 .sign-pop {
   max-width: 160px;
@@ -479,7 +483,7 @@ margin-top: 10px;
   align-items:center ;
     position:absolute;
     z-index: 15;
-    width: 96.5vw;
+    width: 94.5vw;
     height: 93vh;
     margin-top: 17px;
     padding-top: 40px;
@@ -492,7 +496,7 @@ margin-top: 10px;
   margin: 0 auto;
   height: 60.5%;
   left: 0;
-  margin-bottom: 262px;
+  margin-bottom: 112px;
 }
 
 .burger-search {
@@ -530,8 +534,9 @@ margin-top: 10px;
 }
 .background{
   width: 100%;
-  height: 7vh;
-  background-image:  url(../images/gradient.png);
+  height: 23vh;
+  /* background-image:  url(../images/gradient.png); */
+  background:  linear-gradient( black 51%,  rgba(65,21,104,1));;
   background-size: cover;
   margin-top: 9.5%;
 }
@@ -578,6 +583,7 @@ margin-top: 10px;
  /* section 1 style */
  .flex2{
    display: flex;
+   height: 100vh;
  }
  html, body { height: 100%; margin: 0; }
  .img {
@@ -585,18 +591,18 @@ margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 900px;
+  height: 100%;
   width: 100%;
   
  }
  .slider, .slider .imgs {
     width: 100%;
-    height: 92%;
+    height: 100%;
   
   }
   
   .slider {
-    height: 92%;
+    height: 100%%;
     z-index: 2;
     
   }
@@ -605,12 +611,13 @@ margin-top: 10px;
     display: flex;
     overflow: hidden;
     position:absolute;
+    height: 100%;
     
   }
   
   .slider .img {
     min-width: 100%;
-    height: 92%;
+    height: 100%%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -692,8 +699,8 @@ margin-top: 10px;
     position:absolute;
     z-index: 5;
     bottom: 190px;
-    right: 130px;
-    ;
+    right: 10%;
+    cursor: pointer;
 }
 .header11 {
     font-size: 56px;
@@ -718,9 +725,9 @@ margin-top: 10px;
     background-color: #411568;
     border: 2px solid #411568 ;
     text-align: center;
-    padding-top: 13px;
     margin-left: 50px;
     font-family: 'They Perished';
+    cursor: pointer;
 }
 
 
@@ -739,7 +746,8 @@ margin-top: 10px;
     position:absolute;
     z-index: 5;
     bottom: 100px;
-    left: 130px;
+    left: 10%;
+    cursor: pointer;
   }
   .btn2 {
     font-size: 24px;
@@ -751,8 +759,8 @@ margin-top: 10px;
     background-color: #411568;
     border: 2px solid #411568 ;
     text-align: center;
-    padding-top: 13px;
     font-family: 'They Perished';
+    cursor: pointer;
     
 }
 .header22 {
@@ -878,7 +886,8 @@ position: relative; }
     position:absolute;
     z-index: 5;
     bottom: 100px;
-    left: 130px;
+    left: 75%;
+    cursor: pointer;
  }
  .btn3 {
     font-size: 24px;
@@ -890,9 +899,9 @@ position: relative; }
     background-color: #411568;
     border: 2px solid #411568 ;
     text-align: center;
-    padding-top: 13px;
     margin-left: 50px;
     font-family: 'They Perished';
+    cursor: pointer;
     
 }
 
@@ -983,12 +992,16 @@ position: relative; }
 .soc-icons {
     margin-top: 30px;
     width: 100%;
+    cursor: pointer;
     
 }
 .soc-icon {
     max-width: 30px;
     width: 100%;
     margin-right: 10px;
+}
+.soc-icon:hover{
+  transform: scale(1.5);
 }
 .soc-icon11 {
   max-width: 30px;
@@ -999,7 +1012,11 @@ position: relative; }
     max-width: 15px;
     width: 100%;
     margin-right: 10px;
-}.soc-icon12 {
+}
+.soc-icon1:hover{
+  transform: scale(1.5);
+}
+.soc-icon12 {
   max-width: 15px;
   width: 100%;
   margin-right: 35px;
@@ -1033,11 +1050,12 @@ position: relative; }
     color: white;
     background-color: #411568;
     padding:0 30px;
-    padding-top: 2px;
+    padding-bottom: 11px;
     margin-left: 10px;
     margin-top: 10px;
     height: 35px;
     font-family: 'They Perished';
+    cursor: pointer;
 }
 .resp-div{
   display: none;
@@ -1104,6 +1122,7 @@ margin:0 auto;
   border-color: #2F1A4F;
   padding: 7px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .select2{
@@ -1117,6 +1136,7 @@ margin:0 auto;
   padding-top: 8px;
   padding-bottom: 8px;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .nav-a99{
@@ -1157,6 +1177,7 @@ margin:0 auto;
 .divide2{
   display: flex;
   width: 400px;
+  cursor: pointer;
 }
 .cat-resp {
   display: none;
@@ -1268,6 +1289,7 @@ margin:0 auto;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 15px;
+  cursor: pointer;
 }
 .f-btn{
   max-width: 120px;
@@ -1277,6 +1299,7 @@ margin:0 auto;
   border-radius: 15px;
   text-align: center;
   padding-top: 10px;
+  cursor: pointer;
 }
 .cancel{
   font-size: 16px;
@@ -1546,10 +1569,15 @@ width: 65vw;
 
 }
 .section1{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 60px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 235px 235px 235px 235px;
+  grid-gap: 15px;
+  padding: 10px;
   cursor: pointer;
+}
+.div-1{
+  width: 11vw;
 }
 .mini-div {
   padding-left: 10px;
@@ -1818,6 +1846,7 @@ width: 320px;
   font-size: 20px;
   color: white;
   font-family: 'They Perished';
+  cursor: pointer;
 }
 .h4-1 {
   font-size: 18px;
@@ -1831,14 +1860,20 @@ width: 320px;
 }
 .product-resp{
   margin:0 auto;
-  width: 70vw;
+  width: 64vw;
 }
-
+.img-13{
+  width: 65vw;
+}
 .color-d{
   margin:0 auto;
   max-width: 80px;
   width: 100%;
   
+}
+.product-flex3{
+  display: flex;
+  overflow: scroll;
 }
 
 .product-resp1{
@@ -1966,6 +2001,7 @@ width: 320px;
   max-width: 1307px;
   width: 100%;
   margin-top: 70px;
+  cursor: pointer;
 }
 .img-div {
   display: flex;
@@ -2099,6 +2135,7 @@ width: 320px;
   justify-content: space-between;
   width: 75px;
   margin-top: 35px;
+  cursor: pointer;
 }
 .cart-btn {
   font-size: 12px;
@@ -2113,6 +2150,15 @@ width: 320px;
   justify-content: center;
   text-align: center;
   padding-top: 10px;
+}
+.btn-div22 {
+  background-color: white;
+  border: 2px solid #707070;
+  width: 34px;
+  height: 34px;
+  justify-content: center;
+  text-align: center;
+  padding-left: 7px;
 }
 .btn-div7 {
   background-color: white;
@@ -2134,6 +2180,9 @@ width: 320px;
   color: white;
   font-weight: bold;
   
+}
+.play{
+  cursor: pointer;
 }
 .div-x{
   background-color: #2F1A4F;
@@ -2166,16 +2215,19 @@ width: 100%;
   font-size: 14px;
   color: white;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 .need-help2 {
   font-size: 14px;
   color: white;
  margin-top: 35px;
+ cursor: pointer;
 }
 .need-help3 {
   font-size: 14px;
   color: white;
   margin-top: 10px;
+  cursor: pointer;
 }
 .divide6 {
   max-width: 950.36px;
@@ -2218,6 +2270,8 @@ width: 100%;
   padding-top: 20px;
   padding-left: 30px;
   margin-top: 25px;
+  font-size: 24px;
+  color: #5D5151;
 }
 .promo1{
   max-width: 238px;
@@ -2370,10 +2424,13 @@ form.example button {
   
 }
 .join4-4 {
- display: flex;
- justify-content: space-between;
+
  width:1000px;
  margin:0 auto;
+}
+.join4-5{
+  display: flex;
+  justify-content: space-between;
 }
 .join4-1, .join4-2 {
   width:430px
@@ -2387,6 +2444,7 @@ form.example button {
   padding-left: 10px;
   background-color: transparent;
   font-family: 'Segoe UI';
+  margin-bottom: 10px;
 }
 .input-icon {
   display: flex;
@@ -2402,7 +2460,9 @@ form.example button {
   padding-left: 10px;
   font-size: 20px;
   padding-bottom: 190px;
-  margin-top:10px
+  margin-top:10px;
+  resize: none;
+
 }
 .join-bt {
   max-width:338px;
@@ -2415,6 +2475,7 @@ form.example button {
  font-size: 48px;
  color: #707070;
  padding-top: 10px;
+ cursor: pointer;
 }
 .send-btn{
   max-width:338px;
@@ -2460,6 +2521,7 @@ form.example button {
   padding-top: 5px;
   font-size: 16px;
   color: white;
+  cursor: pointer;
 }
 .sign {
   max-width: 314px;
@@ -2495,6 +2557,7 @@ form.example button {
   font-size: 18px;
   color: black;
   text-decoration: underline;
+  cursor: pointer;
 
 }
 .log-p {
@@ -2564,6 +2627,12 @@ margin-left: 30px;
   height: 121px;
   margin-bottom: 15px;
   margin-top: 15px;
+  resize: none;
+}
+.label-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
 }
 .check-btn {
   max-width: 279px;
@@ -2576,6 +2645,7 @@ margin-left: 30px;
   padding-top: 7px;
   font-size: 16px;
   color: white;
+  cursor: pointer;
 }
 .check-btn5 {
   max-width: 279px;
@@ -2588,6 +2658,7 @@ margin-left: 30px;
   padding-top: 7px;
   font-size: 16px;
   color: white;
+  cursor: pointer;
 }
 .add-adress{
   font-size: 16px;
@@ -2766,5 +2837,6 @@ margin-left: 30px;
      padding-top: 5px;
      font-size: 16px;
      color: white;
+     cursor: pointer;
    }
   
