@@ -739,8 +739,8 @@ margin-top: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 800px;
-    padding-top: 1350px;
+    height: 71vh;
+   
   }
   .sec2-div {
     position:absolute;
@@ -1570,7 +1570,7 @@ width: 65vw;
 }
 .section1{
   display: grid;
-  justify-content: space-evenly;
+  
   grid-template-columns: 235px 235px 235px 235px;
   grid-gap: 15px;
   padding: 10px;

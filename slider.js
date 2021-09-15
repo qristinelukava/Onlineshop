@@ -134,6 +134,9 @@
     $("#cart").on("click", function(){
       $("#cart-menu").toggleClass("open-menu");
     })
+    $("#cart5").on("click", function(){
+      $("#cart-menu5").toggleClass("open-menu");
+    })
   
     $("#burger-menu14").on("click", function(){
       $("#size-menu3").toggleClass("open-menu");
